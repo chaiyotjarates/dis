@@ -1,0 +1,165 @@
+CRITICAL - 2022-12-28 06:56:26 --> Cannot use App\Models\KurusConfigsModel as KurusConfigsModel because the name is already in use
+in APPPATH/Controllers/AdminController.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-28 06:57:46 --> Cannot use App\Models\KurusConfigsModel as KurusConfigsModel because the name is already in use
+in APPPATH/Controllers/AdminController.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-28 06:58:10 --> Trying to get property 'co_grad' of non-object
+in APPPATH/Views/admin/list_config.php on line 72.
+ 1 APPPATH/Views/admin/list_config.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'co_grad\' of non-object', 'APPPATH/Views/admin/list_config.php', 72, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/list_config.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/list_config', [], true)
+ 5 APPPATH/Controllers/AdminController.php(492): view('admin/list_config', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AdminController->list_config()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-28 07:00:54 --> Undefined index: co_grad
+in APPPATH/Views/admin/list_config.php on line 72.
+ 1 APPPATH/Views/admin/list_config.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: co_grad', 'APPPATH/Views/admin/list_config.php', 72, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/list_config.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/list_config', [], true)
+ 5 APPPATH/Controllers/AdminController.php(492): view('admin/list_config', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AdminController->list_config()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-28 07:10:26 --> Call to undefined method App\Controllers\AdminController::chk_o_authen()
+in APPPATH/Controllers/AdminController.php on line 551.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AdminController->add_config()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-28 07:14:55 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 867.
+ 1 SYSTEMPATH/BaseModel.php(867): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH/Model.php(693): CodeIgniter\BaseModel->update(null, [])
+ 3 APPPATH/Controllers/AdminController.php(534): CodeIgniter\Model->update()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AdminController->upstatus_config()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-28 07:15:01 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 867.
+ 1 SYSTEMPATH/BaseModel.php(867): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH/Model.php(693): CodeIgniter\BaseModel->update(null, [])
+ 3 APPPATH/Controllers/AdminController.php(534): CodeIgniter\Model->update()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AdminController->upstatus_config()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-28 07:17:25 --> Call to undefined function form_error()
+in APPPATH/Views/admin/add_config.php on line 44.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/add_config', [], true)
+ 4 APPPATH/Controllers/AdminController.php(558): view('admin/add_config', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AdminController->add_config()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-28 07:22:06 --> Undefined variable: tilte
+in APPPATH/Views/admin/add_config.php on line 33.
+ 1 APPPATH/Views/admin/add_config.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: tilte', 'APPPATH/Views/admin/add_config.php', 33, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/add_config.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/add_config', [], true)
+ 5 APPPATH/Controllers/AdminController.php(560): view('admin/add_config', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AdminController->add_config()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-28 07:22:43 --> Trying to get property 'y_name' of non-object
+in APPPATH/Views/admin/add_config.php on line 46.
+ 1 APPPATH/Views/admin/add_config.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'y_name\' of non-object', 'APPPATH/Views/admin/add_config.php', 46, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/add_config.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/add_config', [], true)
+ 5 APPPATH/Controllers/AdminController.php(560): view('admin/add_config', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AdminController->add_config()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-28 07:23:35 --> Call to undefined function form_error()
+in APPPATH/Views/admin/add_config.php on line 56.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/add_config', [], true)
+ 4 APPPATH/Controllers/AdminController.php(560): view('admin/add_config', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AdminController->add_config()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-28 08:14:11 --> Call to undefined method App\Controllers\AdminController::chk_o_authen()
+in APPPATH/Controllers/AdminController.php on line 690.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AdminController->edit_config('2')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-28 08:19:13 --> Undefined variable: kuruYearModel
+in APPPATH/Controllers/AdminController.php on line 698.
+ 1 APPPATH/Controllers/AdminController.php(698): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: kuruYearModel', 'APPPATH/Controllers/AdminController.php', 698, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AdminController->edit_config('2')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-28 08:20:17 --> Trying to get property 'co_grad' of non-object
+in APPPATH/Views/admin/edit_config.php on line 44.
+ 1 APPPATH/Views/admin/edit_config.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'co_grad\' of non-object', 'APPPATH/Views/admin/edit_config.php', 44, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit_config.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/edit_config', [], true)
+ 5 APPPATH/Controllers/AdminController.php(703): view('admin/edit_config', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AdminController->edit_config('2')
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2022-12-28 08:33:49 --> mysqli_sql_exception: Unknown column 'y_id' in 'where clause' in /Users/chudphikul/Desktop/moral_obec/kuru/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /Users/chudphikul/Desktop/moral_obec/kuru/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `kuru_co...', 0)
+#1 /Users/chudphikul/Desktop/moral_obec/kuru/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `kuru_co...')
+#2 /Users/chudphikul/Desktop/moral_obec/kuru/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `kuru_co...')
+#3 /Users/chudphikul/Desktop/moral_obec/kuru/system/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `kuru_co...', Array, false)
+#4 /Users/chudphikul/Desktop/moral_obec/kuru/system/Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+#5 /Users/chudphikul/Desktop/moral_obec/kuru/system/BaseModel.php(886): CodeIgniter\Model->doUpdate(NULL, Array)
+#6 /Users/chudphikul/Desktop/moral_obec/kuru/system/Model.php(693): CodeIgniter\BaseModel->update(NULL, Array)
+#7 /Users/chudphikul/Desktop/moral_obec/kuru/app/Controllers/AdminController.php(819): CodeIgniter\Model->update()
+#8 /Users/chudphikul/Desktop/moral_obec/kuru/system/CodeIgniter.php(927): App\Controllers\AdminController->update_config()
+#9 /Users/chudphikul/Desktop/moral_obec/kuru/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#10 /Users/chudphikul/Desktop/moral_obec/kuru/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /Users/chudphikul/Desktop/moral_obec/kuru/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 /Users/chudphikul/Desktop/moral_obec/kuru/system/Commands/Server/rewrite.php(46): require_once('/Users/chudphik...')
+#13 {main}
+CRITICAL - 2022-12-28 08:33:49 --> Unknown column 'y_id' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `kuru_config` SET `co_year` = \'2565\', `co_title` = \'ddd\', `co_date_start` = \'2022-12-25\', `co_date_end` = \'2022-12-25\', `co_areascore_start` = \'2022-12-25\', `co_areascore_end` = \'2022-12-25\', `co_clusscore_start` = \'2022-12-19\', `co_clusscore_end` = \'2022-12-20\', `co_datenote_start` = \'2022-12-29\', `co_datenote_end` = \'2022-12-29\', `co_datescore_start` = \'2022-12-29\', `co_datescore_end` = \'2022-12-30\', `co_datepublish` = \'2022-12-28\', `co_posted` = \'1\', `co_posted_date` = \'2022-12-28 08:33:49\', `co_status` = \'Active\', `updated_at` = \'2022-12-28 08:33:49\'
+WHERE `y_id` = \'2\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `kuru_config` SET `co_year` = \'2565\', `co_title` = \'ddd\', `co_date_start` = \'2022-12-25\', `co_date_end` = \'2022-12-25\', `co_areascore_start` = \'2022-12-25\', `co_areascore_end` = \'2022-12-25\', `co_clusscore_start` = \'2022-12-19\', `co_clusscore_end` = \'2022-12-20\', `co_datenote_start` = \'2022-12-29\', `co_datenote_end` = \'2022-12-29\', `co_datescore_start` = \'2022-12-29\', `co_datescore_end` = \'2022-12-30\', `co_datepublish` = \'2022-12-28\', `co_posted` = \'1\', `co_posted_date` = \'2022-12-28 08:33:49\', `co_status` = \'Active\', `updated_at` = \'2022-12-28 08:33:49\'
+WHERE `y_id` = \'2\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `kuru_config` SET `co_year` = \'2565\', `co_title` = \'ddd\', `co_date_start` = \'2022-12-25\', `co_date_end` = \'2022-12-25\', `co_areascore_start` = \'2022-12-25\', `co_areascore_end` = \'2022-12-25\', `co_clusscore_start` = \'2022-12-19\', `co_clusscore_end` = \'2022-12-20\', `co_datenote_start` = \'2022-12-29\', `co_datenote_end` = \'2022-12-29\', `co_datescore_start` = \'2022-12-29\', `co_datescore_end` = \'2022-12-30\', `co_datepublish` = \'2022-12-28\', `co_posted` = \'1\', `co_posted_date` = \'2022-12-28 08:33:49\', `co_status` = \'Active\', `updated_at` = \'2022-12-28 08:33:49\'
+WHERE `y_id` = \'2\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `kuru_config` SET `co_year` = :co_year:, `co_title` = :co_title:, `co_date_start` = :co_date_start:, `co_date_end` = :co_date_end:, `co_areascore_start` = :co_areascore_start:, `co_areascore_end` = :co_areascore_end:, `co_clusscore_start` = :co_clusscore_start:, `co_clusscore_end` = :co_clusscore_end:, `co_datenote_start` = :co_datenote_start:, `co_datenote_end` = :co_datenote_end:, `co_datescore_start` = :co_datescore_start:, `co_datescore_end` = :co_datescore_end:, `co_datepublish` = :co_datepublish:, `co_posted` = :co_posted:, `co_posted_date` = :co_posted_date:, `co_status` = :co_status:, `updated_at` = :updated_at:
+WHERE `y_id` = :y_id:', [...], false)
+ 5 SYSTEMPATH/Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH/BaseModel.php(886): CodeIgniter\Model->doUpdate(null, [...])
+ 7 SYSTEMPATH/Model.php(693): CodeIgniter\BaseModel->update(null, [...])
+ 8 APPPATH/Controllers/AdminController.php(819): CodeIgniter\Model->update()
+ 9 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AdminController->update_config()
+10 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+11 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')

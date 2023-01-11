@@ -1,0 +1,86 @@
+CRITICAL - 2022-12-23 03:42:45 --> Undefined index: user_address
+in APPPATH/Views/school/profile.php on line 123.
+ 1 APPPATH/Views/school/profile.php(123): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: user_address', 'APPPATH/Views/school/profile.php', 123, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/school/profile.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('school/profile', [], true)
+ 5 APPPATH/Controllers/SchoolController.php(125): view('school/profile', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\SchoolController->profile()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SchoolController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-23 04:05:04 --> Undefined variable: user_profile
+in APPPATH/Controllers/SchoolController.php on line 248.
+ 1 APPPATH/Controllers/SchoolController.php(248): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: user_profile', 'APPPATH/Controllers/SchoolController.php', 248, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\SchoolController->updateProfile()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SchoolController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-23 04:06:36 --> Undefined variable: user_profile
+in APPPATH/Controllers/SchoolController.php on line 248.
+ 1 APPPATH/Controllers/SchoolController.php(248): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: user_profile', 'APPPATH/Controllers/SchoolController.php', 248, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\SchoolController->updateProfile()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SchoolController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-23 04:14:54 --> syntax error, unexpected '">' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ','
+in APPPATH/Views/school/changePassword.php on line 50.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('school/changePassword', [], true)
+ 3 APPPATH/Controllers/SchoolController.php(49): view('school/changePassword', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\SchoolController->changePassword()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SchoolController))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-23 04:15:14 --> Undefined variable: user_password
+in APPPATH/Views/school/changePassword.php on line 47.
+ 1 APPPATH/Views/school/changePassword.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: user_password', 'APPPATH/Views/school/changePassword.php', 47, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/school/changePassword.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('school/changePassword', [], true)
+ 5 APPPATH/Controllers/SchoolController.php(49): view('school/changePassword', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\SchoolController->changePassword()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SchoolController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-23 04:16:08 --> Trying to access array offset on value of type int
+in APPPATH/Views/school/changePassword.php on line 47.
+ 1 APPPATH/Views/school/changePassword.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type int', 'APPPATH/Views/school/changePassword.php', 47, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/school/changePassword.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('school/changePassword', [], true)
+ 5 APPPATH/Controllers/SchoolController.php(49): view('school/changePassword', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\SchoolController->changePassword()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SchoolController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-23 04:18:02 --> Trying to access array offset on value of type int
+in APPPATH/Views/school/changePassword.php on line 47.
+ 1 APPPATH/Views/school/changePassword.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type int', 'APPPATH/Views/school/changePassword.php', 47, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/school/changePassword.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('school/changePassword', [], true)
+ 5 APPPATH/Controllers/SchoolController.php(49): view('school/changePassword', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\SchoolController->changePassword()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SchoolController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-23 04:22:00 --> Trying to access array offset on value of type int
+in APPPATH/Views/school/changePassword.php on line 47.
+ 1 APPPATH/Views/school/changePassword.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type int', 'APPPATH/Views/school/changePassword.php', 47, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/school/changePassword.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('school/changePassword', [], true)
+ 5 APPPATH/Controllers/SchoolController.php(49): view('school/changePassword', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\SchoolController->changePassword()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SchoolController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')

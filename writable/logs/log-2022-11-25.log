@@ -1,0 +1,81 @@
+CRITICAL - 2022-11-25 14:09:05 --> syntax error, unexpected end of file
+in APPPATH/Config/Routes.php on line 54.
+ 1 SYSTEMPATH/CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 2 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 3 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-25 14:11:52 --> syntax error, unexpected end of file
+in APPPATH/Controllers/ForgotPasswordController.php on line 189.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 [internal function]: spl_autoload_call()
+ 5 SYSTEMPATH/CodeIgniter.php(877): class_exists()
+ 6 SYSTEMPATH/CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-25 14:33:00 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 867.
+ 1 SYSTEMPATH/BaseModel.php(867): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/Model.php(693): CodeIgniter\BaseModel->update()
+ 3 APPPATH/Controllers/ForgotPasswordController.php(52): CodeIgniter\Model->update()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\ForgotPasswordController->forgot()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-25 14:35:41 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 867.
+ 1 SYSTEMPATH/BaseModel.php(867): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/Model.php(693): CodeIgniter\BaseModel->update()
+ 3 APPPATH/Controllers/ForgotPasswordController.php(52): CodeIgniter\Model->update()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\ForgotPasswordController->forgot()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-25 14:36:34 --> mysqli_sql_exception: Unknown column 'email' in 'where clause' in /usr/home/moral/public_html/kuru/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /usr/home/moral/public_html/kuru/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /usr/home/moral/public_html/kuru/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /usr/home/moral/public_html/kuru/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /usr/home/moral/public_html/kuru/system/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query()
+#4 /usr/home/moral/public_html/kuru/system/Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+#5 /usr/home/moral/public_html/kuru/system/BaseModel.php(886): CodeIgniter\Model->doUpdate()
+#6 /usr/home/moral/public_html/kuru/system/Model.php(693): CodeIgniter\BaseModel->update()
+#7 /usr/home/moral/public_html/kuru/app/Controllers/ForgotPasswordController.php(52): CodeIgniter\Model->update()
+#8 /usr/home/moral/public_html/kuru/system/CodeIgniter.php(927): App\Controllers\ForgotPasswordController->forgot()
+#9 /usr/home/moral/public_html/kuru/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#10 /usr/home/moral/public_html/kuru/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#11 /usr/home/moral/public_html/kuru/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-11-25 14:36:34 --> Unknown column 'email' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH/BaseModel.php(886): CodeIgniter\Model->doUpdate()
+ 7 SYSTEMPATH/Model.php(693): CodeIgniter\BaseModel->update()
+ 8 APPPATH/Controllers/ForgotPasswordController.php(52): CodeIgniter\Model->update()
+ 9 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\ForgotPasswordController->forgot()
+10 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-25 14:37:10 --> Class 'App\Controllers\PHPMailer' not found
+in APPPATH/Controllers/ForgotPasswordController.php on line 56.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\ForgotPasswordController->forgot()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-25 14:37:34 --> Class 'PHPMailer\PHPMailer\PHPMailer' not found
+in APPPATH/Controllers/ForgotPasswordController.php on line 56.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\ForgotPasswordController->forgot()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-25 14:58:46 --> Undefined index: user_lame
+in APPPATH/Controllers/ForgotPasswordController.php on line 71.
+ 1 APPPATH/Controllers/ForgotPasswordController.php(71): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\ForgotPasswordController->forgot()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

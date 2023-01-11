@@ -1,0 +1,188 @@
+ERROR - 2023-01-11 11:37:22 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'disobec' in /Users/chudphikul/Desktop/dis_obec/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /Users/chudphikul/Desktop/dis_obec/system/Database/MySQLi/Connection.php(171): mysqli->real_connect('127.0.0.1:3306', 'root', '', 'disobec', 3306, '', 0)
+#1 /Users/chudphikul/Desktop/dis_obec/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /Users/chudphikul/Desktop/dis_obec/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 /Users/chudphikul/Desktop/dis_obec/system/Model.php(768): CodeIgniter\Database\BaseConnection->query('DELETE FROM use...')
+#4 /Users/chudphikul/Desktop/dis_obec/app/Libraries/UserOnline.php(27): CodeIgniter\Model->__call('query', Array)
+#5 /Users/chudphikul/Desktop/dis_obec/system/Events/Events.php(149): App\Libraries\UserOnline->online()
+#6 /Users/chudphikul/Desktop/dis_obec/system/CodeIgniter.php(328): CodeIgniter\Events\Events::trigger('pre_system')
+#7 /Users/chudphikul/Desktop/dis_obec/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 /Users/chudphikul/Desktop/dis_obec/system/Commands/Server/rewrite.php(46): require_once('/Users/chudphik...')
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'disobec' in /Users/chudphikul/Desktop/dis_obec/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /Users/chudphikul/Desktop/dis_obec/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /Users/chudphikul/Desktop/dis_obec/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 /Users/chudphikul/Desktop/dis_obec/system/Model.php(768): CodeIgniter\Database\BaseConnection->query('DELETE FROM use...')
+#3 /Users/chudphikul/Desktop/dis_obec/app/Libraries/UserOnline.php(27): CodeIgniter\Model->__call('query', Array)
+#4 /Users/chudphikul/Desktop/dis_obec/system/Events/Events.php(149): App\Libraries\UserOnline->online()
+#5 /Users/chudphikul/Desktop/dis_obec/system/CodeIgniter.php(328): CodeIgniter\Events\Events::trigger('pre_system')
+#6 /Users/chudphikul/Desktop/dis_obec/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#7 /Users/chudphikul/Desktop/dis_obec/system/Commands/Server/rewrite.php(46): require_once('/Users/chudphik...')
+#8 {main}
+CRITICAL - 2023-01-11 11:37:22 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'disobec'
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Model.php(768): CodeIgniter\Database\BaseConnection->query('DELETE FROM users_online WHERE last_activity < 1673404642')
+ 3 APPPATH/Libraries/UserOnline.php(27): CodeIgniter\Model->__call('query', [...])
+ 4 SYSTEMPATH/Events/Events.php(149): App\Libraries\UserOnline->online()
+ 5 SYSTEMPATH/CodeIgniter.php(328): CodeIgniter\Events\Events::trigger('pre_system')
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2023-01-11 14:59:29 --> mysqli_sql_exception: Table 'disobec.dis_config' doesn't exist in /Users/chudphikul/Desktop/DIS/dis_obec/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /Users/chudphikul/Desktop/DIS/dis_obec/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /Users/chudphikul/Desktop/DIS/dis_obec/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Users/chudphikul/Desktop/DIS/dis_obec/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Users/chudphikul/Desktop/DIS/dis_obec/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Users/chudphikul/Desktop/DIS/dis_obec/system/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/chudphikul/Desktop/DIS/dis_obec/system/BaseModel.php(623): CodeIgniter\Model->doFirst()
+#6 /Users/chudphikul/Desktop/DIS/dis_obec/app/Controllers/AdminController.php(49): CodeIgniter\BaseModel->first()
+#7 /Users/chudphikul/Desktop/DIS/dis_obec/system/CodeIgniter.php(927): App\Controllers\AdminController->index()
+#8 /Users/chudphikul/Desktop/DIS/dis_obec/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#9 /Users/chudphikul/Desktop/DIS/dis_obec/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/chudphikul/Desktop/DIS/dis_obec/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 /Users/chudphikul/Desktop/DIS/dis_obec/system/Commands/Server/rewrite.php(46): require_once('/Users/chudphik...')
+#12 {main}
+CRITICAL - 2023-01-11 14:59:29 --> Table 'disobec.dis_config' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *
+FROM `dis_config`
+WHERE `co_status` = \'Active\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `dis_config`
+WHERE `co_status` = \'Active\'
+ LIMIT 1')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `dis_config`
+WHERE `co_status` = \'Active\'
+ LIMIT 1')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `dis_config`
+WHERE `co_status` = :co_status:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 7 APPPATH/Controllers/AdminController.php(49): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AdminController->index()
+ 9 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+10 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2023-01-11 15:01:21 --> mysqli_sql_exception: Table 'disobec.dis_config' doesn't exist in /Users/chudphikul/Desktop/DIS/dis_obec/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /Users/chudphikul/Desktop/DIS/dis_obec/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /Users/chudphikul/Desktop/DIS/dis_obec/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Users/chudphikul/Desktop/DIS/dis_obec/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Users/chudphikul/Desktop/DIS/dis_obec/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Users/chudphikul/Desktop/DIS/dis_obec/system/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/chudphikul/Desktop/DIS/dis_obec/system/BaseModel.php(623): CodeIgniter\Model->doFirst()
+#6 /Users/chudphikul/Desktop/DIS/dis_obec/app/Controllers/AdminController.php(49): CodeIgniter\BaseModel->first()
+#7 /Users/chudphikul/Desktop/DIS/dis_obec/system/CodeIgniter.php(927): App\Controllers\AdminController->index()
+#8 /Users/chudphikul/Desktop/DIS/dis_obec/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#9 /Users/chudphikul/Desktop/DIS/dis_obec/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/chudphikul/Desktop/DIS/dis_obec/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 /Users/chudphikul/Desktop/DIS/dis_obec/system/Commands/Server/rewrite.php(46): require_once('/Users/chudphik...')
+#12 {main}
+CRITICAL - 2023-01-11 15:01:21 --> Table 'disobec.dis_config' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *
+FROM `dis_config`
+WHERE `co_status` = \'Active\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `dis_config`
+WHERE `co_status` = \'Active\'
+ LIMIT 1')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `dis_config`
+WHERE `co_status` = \'Active\'
+ LIMIT 1')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `dis_config`
+WHERE `co_status` = :co_status:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 7 APPPATH/Controllers/AdminController.php(49): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AdminController->index()
+ 9 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+10 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2023-01-11 15:05:33 --> mysqli_sql_exception: Table 'disobec.dis_config' doesn't exist in /Users/chudphikul/Desktop/DIS/dis_obec/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /Users/chudphikul/Desktop/DIS/dis_obec/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /Users/chudphikul/Desktop/DIS/dis_obec/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Users/chudphikul/Desktop/DIS/dis_obec/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Users/chudphikul/Desktop/DIS/dis_obec/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Users/chudphikul/Desktop/DIS/dis_obec/system/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/chudphikul/Desktop/DIS/dis_obec/system/BaseModel.php(623): CodeIgniter\Model->doFirst()
+#6 /Users/chudphikul/Desktop/DIS/dis_obec/app/Controllers/AdminController.php(49): CodeIgniter\BaseModel->first()
+#7 /Users/chudphikul/Desktop/DIS/dis_obec/system/CodeIgniter.php(927): App\Controllers\AdminController->index()
+#8 /Users/chudphikul/Desktop/DIS/dis_obec/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#9 /Users/chudphikul/Desktop/DIS/dis_obec/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/chudphikul/Desktop/DIS/dis_obec/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 /Users/chudphikul/Desktop/DIS/dis_obec/system/Commands/Server/rewrite.php(46): require_once('/Users/chudphik...')
+#12 {main}
+CRITICAL - 2023-01-11 15:05:33 --> Table 'disobec.dis_config' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *
+FROM `dis_config`
+WHERE `co_status` = \'Active\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `dis_config`
+WHERE `co_status` = \'Active\'
+ LIMIT 1')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `dis_config`
+WHERE `co_status` = \'Active\'
+ LIMIT 1')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `dis_config`
+WHERE `co_status` = :co_status:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 7 APPPATH/Controllers/AdminController.php(49): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AdminController->index()
+ 9 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+10 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2023-01-11 15:08:00 --> mysqli_sql_exception: Table 'disobec.kuru_award' doesn't exist in /Users/chudphikul/Desktop/DIS/dis_obec/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /Users/chudphikul/Desktop/DIS/dis_obec/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 /Users/chudphikul/Desktop/DIS/dis_obec/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 /Users/chudphikul/Desktop/DIS/dis_obec/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 /Users/chudphikul/Desktop/DIS/dis_obec/system/Database/BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 /Users/chudphikul/Desktop/DIS/dis_obec/system/Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 /Users/chudphikul/Desktop/DIS/dis_obec/app/Controllers/AdminController.php(47): CodeIgniter\Model->countAllResults()
+#6 /Users/chudphikul/Desktop/DIS/dis_obec/system/CodeIgniter.php(927): App\Controllers\AdminController->index()
+#7 /Users/chudphikul/Desktop/DIS/dis_obec/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#8 /Users/chudphikul/Desktop/DIS/dis_obec/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/chudphikul/Desktop/DIS/dis_obec/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /Users/chudphikul/Desktop/DIS/dis_obec/system/Commands/Server/rewrite.php(46): require_once('/Users/chudphik...')
+#11 {main}
+CRITICAL - 2023-01-11 15:08:00 --> Table 'disobec.kuru_award' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `kuru_award`', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `kuru_award`')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `kuru_award`')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `kuru_award`', [], false)
+ 5 SYSTEMPATH/Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 6 APPPATH/Controllers/AdminController.php(47): CodeIgniter\Model->countAllResults()
+ 7 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AdminController->index()
+ 8 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')

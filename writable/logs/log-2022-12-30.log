@@ -1,0 +1,74 @@
+CRITICAL - 2022-12-30 07:26:21 --> Invalid file: frontend/registerAdmin.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('frontend/registerAdmin.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('frontend/registerAdmin', [], true)
+ 3 APPPATH/Controllers/Login.php(336): view('frontend/registerAdmin', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Login->auth()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-30 07:26:56 --> Invalid file: frontend/registerAdmin.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('frontend/registerAdmin.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('frontend/registerAdmin', [], true)
+ 3 APPPATH/Controllers/Login.php(336): view('frontend/registerAdmin', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Login->auth()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-30 07:28:30 --> Invalid file: frontend/registerAdmin.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('frontend/registerAdmin.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('frontend/registerAdmin', [], true)
+ 3 APPPATH/Controllers/Login.php(336): view('frontend/registerAdmin', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Login->auth()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-30 07:51:37 --> Argument 2 passed to lang() must be of the type array, string given, called in /Users/chudphikul/Desktop/moral_obec/kuru/app/Controllers/Login.php on line 24
+in SYSTEMPATH/Common.php on line 743.
+ 1 APPPATH/Controllers/Login.php(24): lang('default', 'eng')
+ 2 SYSTEMPATH/CodeIgniter.php(889): App\Controllers\Login->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-30 07:59:07 --> Array to string conversion
+in APPPATH/Views/frontend/registerSchool.php on line 6.
+ 1 APPPATH/Views/frontend/registerSchool.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH/Views/frontend/registerSchool.php', 6, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/frontend/registerSchool.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('frontend/registerSchool', [], true)
+ 5 APPPATH/Controllers/RegisterController.php(44): view('frontend/registerSchool', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\RegisterController->RegSchool()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-30 08:00:34 --> Undefined offset: 1
+in APPPATH/Views/frontend/registerSchool.php on line 6.
+ 1 APPPATH/Views/frontend/registerSchool.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1', 'APPPATH/Views/frontend/registerSchool.php', 6, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/frontend/registerSchool.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('frontend/registerSchool', [], true)
+ 5 APPPATH/Controllers/RegisterController.php(44): view('frontend/registerSchool', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\RegisterController->RegSchool()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-30 08:04:06 --> Array to string conversion
+in APPPATH/Views/frontend/registerArea.php on line 29.
+ 1 APPPATH/Views/frontend/registerArea.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH/Views/frontend/registerArea.php', 29, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/frontend/registerArea.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('frontend/registerArea', [], true)
+ 5 APPPATH/Controllers/RegisterController.php(76): view('frontend/registerArea', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\RegisterController->RegArea()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')

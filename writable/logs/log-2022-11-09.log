@@ -1,0 +1,950 @@
+CRITICAL - 2022-11-09 01:35:46 --> Invalid file: frontend/login.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('frontend/login.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('frontend/login', [], true)
+ 3 APPPATH/Controllers/Login.php(14): view('frontend/login', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Login->index()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-09 01:37:54 --> Class "App\Models\UsersModel" not found
+in APPPATH/Controllers/Pages.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Pages->index()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-09 01:39:00 --> Class "App\Models\UsersModel" not found
+in APPPATH/Controllers/Pages.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Pages->index()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-09 01:39:14 --> Class "App\Models\UsersModel" not found
+in APPPATH/Controllers/Pages.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Pages->index()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-09 01:40:36 --> Class "App\Models\UsersModel" not found
+in APPPATH/Controllers/Pages.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Pages->index()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-09 03:22:24 --> Invalid file: templates/frontend/header.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/frontend/header.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('templates/frontend/header', [], true)
+ 3 APPPATH/Views/frontend/index.php(1): view('templates/frontend/header')
+ 4 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/frontend/index.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('frontend/index', [], true)
+ 7 APPPATH/Controllers/Pages.php(43): view('frontend/index', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Pages->index()
+ 9 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+10 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-09 03:22:53 --> Request URI segment is out of range: 1
+in SYSTEMPATH/HTTP/URI.php on line 529.
+ 1 SYSTEMPATH/HTTP/URI.php(529): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(1)
+ 2 APPPATH/Views/template/header.php(101): CodeIgniter\HTTP\URI->getSegment(1)
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/template/header.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('template/header', [], true)
+ 6 APPPATH/Views/frontend/index.php(1): view('template/header')
+ 7 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/frontend/index.php')
+ 8 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('frontend/index', [], true)
+10 APPPATH/Controllers/Pages.php(43): view('frontend/index', [...])
+11 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Pages->index()
+12 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+13 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-09 03:23:01 --> Request URI segment is out of range: 1
+in SYSTEMPATH/HTTP/URI.php on line 529.
+ 1 SYSTEMPATH/HTTP/URI.php(529): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(1)
+ 2 APPPATH/Views/template/header.php(101): CodeIgniter\HTTP\URI->getSegment(1)
+ 3 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/template/header.php')
+ 4 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('template/header', [], true)
+ 6 APPPATH/Views/frontend/index.php(1): view('template/header')
+ 7 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/frontend/index.php')
+ 8 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('frontend/index', [], true)
+10 APPPATH/Controllers/Pages.php(43): view('frontend/index', [...])
+11 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Pages->index()
+12 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+13 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2022-11-09 03:59:48 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /Applications/XAMPP/xamppfiles/htdocs/obec/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/obec/system/Database/MySQLi/Connection.php(171): mysqli->real_connect('localhost', '', '', '', 3306, '', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/obec/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /Applications/XAMPP/xamppfiles/htdocs/obec/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 /Applications/XAMPP/xamppfiles/htdocs/obec/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/obec/system/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/XAMPP/xamppfiles/htdocs/obec/system/BaseModel.php(623): CodeIgniter\Model->doFirst()
+#6 /Applications/XAMPP/xamppfiles/htdocs/obec/app/Controllers/Login.php(20): CodeIgniter\BaseModel->first()
+#7 /Applications/XAMPP/xamppfiles/htdocs/obec/system/CodeIgniter.php(927): App\Controllers\Login->auth()
+#8 /Applications/XAMPP/xamppfiles/htdocs/obec/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 /Applications/XAMPP/xamppfiles/htdocs/obec/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Applications/XAMPP/xamppfiles/htdocs/obec/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/obec/system/Commands/Server/rewrite.php(46): require_once('/Applications/X...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /Applications/XAMPP/xamppfiles/htdocs/obec/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/obec/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /Applications/XAMPP/xamppfiles/htdocs/obec/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 /Applications/XAMPP/xamppfiles/htdocs/obec/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /Applications/XAMPP/xamppfiles/htdocs/obec/system/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#4 /Applications/XAMPP/xamppfiles/htdocs/obec/system/BaseModel.php(623): CodeIgniter\Model->doFirst()
+#5 /Applications/XAMPP/xamppfiles/htdocs/obec/app/Controllers/Login.php(20): CodeIgniter\BaseModel->first()
+#6 /Applications/XAMPP/xamppfiles/htdocs/obec/system/CodeIgniter.php(927): App\Controllers\Login->auth()
+#7 /Applications/XAMPP/xamppfiles/htdocs/obec/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 /Applications/XAMPP/xamppfiles/htdocs/obec/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/XAMPP/xamppfiles/htdocs/obec/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /Applications/XAMPP/xamppfiles/htdocs/obec/system/Commands/Server/rewrite.php(46): require_once('/Applications/X...')
+#11 {main}
+CRITICAL - 2022-11-09 03:59:48 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `email` IS NULL
+AND `status` = :status:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Controllers/Login.php(20): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Login->auth()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2022-11-09 04:00:17 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /Applications/XAMPP/xamppfiles/htdocs/obec/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/obec/system/Database/MySQLi/Connection.php(171): mysqli->real_connect('localhost', '', '', '', 3306, '', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/obec/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /Applications/XAMPP/xamppfiles/htdocs/obec/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 /Applications/XAMPP/xamppfiles/htdocs/obec/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/obec/system/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/XAMPP/xamppfiles/htdocs/obec/system/BaseModel.php(623): CodeIgniter\Model->doFirst()
+#6 /Applications/XAMPP/xamppfiles/htdocs/obec/app/Controllers/Login.php(20): CodeIgniter\BaseModel->first()
+#7 /Applications/XAMPP/xamppfiles/htdocs/obec/system/CodeIgniter.php(927): App\Controllers\Login->auth()
+#8 /Applications/XAMPP/xamppfiles/htdocs/obec/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 /Applications/XAMPP/xamppfiles/htdocs/obec/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Applications/XAMPP/xamppfiles/htdocs/obec/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/obec/system/Commands/Server/rewrite.php(46): require_once('/Applications/X...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /Applications/XAMPP/xamppfiles/htdocs/obec/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/obec/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /Applications/XAMPP/xamppfiles/htdocs/obec/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 /Applications/XAMPP/xamppfiles/htdocs/obec/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /Applications/XAMPP/xamppfiles/htdocs/obec/system/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#4 /Applications/XAMPP/xamppfiles/htdocs/obec/system/BaseModel.php(623): CodeIgniter\Model->doFirst()
+#5 /Applications/XAMPP/xamppfiles/htdocs/obec/app/Controllers/Login.php(20): CodeIgniter\BaseModel->first()
+#6 /Applications/XAMPP/xamppfiles/htdocs/obec/system/CodeIgniter.php(927): App\Controllers\Login->auth()
+#7 /Applications/XAMPP/xamppfiles/htdocs/obec/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 /Applications/XAMPP/xamppfiles/htdocs/obec/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/XAMPP/xamppfiles/htdocs/obec/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /Applications/XAMPP/xamppfiles/htdocs/obec/system/Commands/Server/rewrite.php(46): require_once('/Applications/X...')
+#11 {main}
+CRITICAL - 2022-11-09 04:00:17 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `email` IS NULL
+AND `status` = :status:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Controllers/Login.php(20): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Login->auth()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2022-11-09 04:02:05 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /Applications/XAMPP/xamppfiles/htdocs/obec/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/obec/system/Database/MySQLi/Connection.php(171): mysqli->real_connect('localhost', '', '', '', 3306, '', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/obec/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /Applications/XAMPP/xamppfiles/htdocs/obec/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 /Applications/XAMPP/xamppfiles/htdocs/obec/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/obec/system/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/XAMPP/xamppfiles/htdocs/obec/system/BaseModel.php(623): CodeIgniter\Model->doFirst()
+#6 /Applications/XAMPP/xamppfiles/htdocs/obec/app/Controllers/Login.php(20): CodeIgniter\BaseModel->first()
+#7 /Applications/XAMPP/xamppfiles/htdocs/obec/system/CodeIgniter.php(927): App\Controllers\Login->auth()
+#8 /Applications/XAMPP/xamppfiles/htdocs/obec/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 /Applications/XAMPP/xamppfiles/htdocs/obec/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Applications/XAMPP/xamppfiles/htdocs/obec/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/obec/system/Commands/Server/rewrite.php(46): require_once('/Applications/X...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /Applications/XAMPP/xamppfiles/htdocs/obec/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/obec/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /Applications/XAMPP/xamppfiles/htdocs/obec/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 /Applications/XAMPP/xamppfiles/htdocs/obec/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /Applications/XAMPP/xamppfiles/htdocs/obec/system/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#4 /Applications/XAMPP/xamppfiles/htdocs/obec/system/BaseModel.php(623): CodeIgniter\Model->doFirst()
+#5 /Applications/XAMPP/xamppfiles/htdocs/obec/app/Controllers/Login.php(20): CodeIgniter\BaseModel->first()
+#6 /Applications/XAMPP/xamppfiles/htdocs/obec/system/CodeIgniter.php(927): App\Controllers\Login->auth()
+#7 /Applications/XAMPP/xamppfiles/htdocs/obec/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 /Applications/XAMPP/xamppfiles/htdocs/obec/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/XAMPP/xamppfiles/htdocs/obec/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /Applications/XAMPP/xamppfiles/htdocs/obec/system/Commands/Server/rewrite.php(46): require_once('/Applications/X...')
+#11 {main}
+CRITICAL - 2022-11-09 04:02:05 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `email` = :email:
+AND `status` = :status:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Controllers/Login.php(20): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Login->auth()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2022-11-09 04:03:44 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /Applications/XAMPP/xamppfiles/htdocs/obec/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/obec/system/Database/MySQLi/Connection.php(171): mysqli->real_connect('localhost', '', '', '', 3306, '', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/obec/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /Applications/XAMPP/xamppfiles/htdocs/obec/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 /Applications/XAMPP/xamppfiles/htdocs/obec/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/obec/system/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/XAMPP/xamppfiles/htdocs/obec/system/BaseModel.php(623): CodeIgniter\Model->doFirst()
+#6 /Applications/XAMPP/xamppfiles/htdocs/obec/app/Controllers/Login.php(20): CodeIgniter\BaseModel->first()
+#7 /Applications/XAMPP/xamppfiles/htdocs/obec/system/CodeIgniter.php(927): App\Controllers\Login->auth()
+#8 /Applications/XAMPP/xamppfiles/htdocs/obec/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 /Applications/XAMPP/xamppfiles/htdocs/obec/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Applications/XAMPP/xamppfiles/htdocs/obec/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/obec/system/Commands/Server/rewrite.php(46): require_once('/Applications/X...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /Applications/XAMPP/xamppfiles/htdocs/obec/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/obec/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /Applications/XAMPP/xamppfiles/htdocs/obec/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 /Applications/XAMPP/xamppfiles/htdocs/obec/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /Applications/XAMPP/xamppfiles/htdocs/obec/system/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#4 /Applications/XAMPP/xamppfiles/htdocs/obec/system/BaseModel.php(623): CodeIgniter\Model->doFirst()
+#5 /Applications/XAMPP/xamppfiles/htdocs/obec/app/Controllers/Login.php(20): CodeIgniter\BaseModel->first()
+#6 /Applications/XAMPP/xamppfiles/htdocs/obec/system/CodeIgniter.php(927): App\Controllers\Login->auth()
+#7 /Applications/XAMPP/xamppfiles/htdocs/obec/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 /Applications/XAMPP/xamppfiles/htdocs/obec/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/XAMPP/xamppfiles/htdocs/obec/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /Applications/XAMPP/xamppfiles/htdocs/obec/system/Commands/Server/rewrite.php(46): require_once('/Applications/X...')
+#11 {main}
+CRITICAL - 2022-11-09 04:03:44 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `email` = :email:
+AND `status` = :status:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Controllers/Login.php(20): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Login->auth()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2022-11-09 04:03:58 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /Applications/XAMPP/xamppfiles/htdocs/obec/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/obec/system/Database/MySQLi/Connection.php(171): mysqli->real_connect('localhost', '', '', '', 3306, '', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/obec/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /Applications/XAMPP/xamppfiles/htdocs/obec/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 /Applications/XAMPP/xamppfiles/htdocs/obec/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/obec/system/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/XAMPP/xamppfiles/htdocs/obec/system/BaseModel.php(623): CodeIgniter\Model->doFirst()
+#6 /Applications/XAMPP/xamppfiles/htdocs/obec/app/Controllers/Login.php(20): CodeIgniter\BaseModel->first()
+#7 /Applications/XAMPP/xamppfiles/htdocs/obec/system/CodeIgniter.php(927): App\Controllers\Login->auth()
+#8 /Applications/XAMPP/xamppfiles/htdocs/obec/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 /Applications/XAMPP/xamppfiles/htdocs/obec/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Applications/XAMPP/xamppfiles/htdocs/obec/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/obec/system/Commands/Server/rewrite.php(46): require_once('/Applications/X...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /Applications/XAMPP/xamppfiles/htdocs/obec/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/obec/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /Applications/XAMPP/xamppfiles/htdocs/obec/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 /Applications/XAMPP/xamppfiles/htdocs/obec/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /Applications/XAMPP/xamppfiles/htdocs/obec/system/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#4 /Applications/XAMPP/xamppfiles/htdocs/obec/system/BaseModel.php(623): CodeIgniter\Model->doFirst()
+#5 /Applications/XAMPP/xamppfiles/htdocs/obec/app/Controllers/Login.php(20): CodeIgniter\BaseModel->first()
+#6 /Applications/XAMPP/xamppfiles/htdocs/obec/system/CodeIgniter.php(927): App\Controllers\Login->auth()
+#7 /Applications/XAMPP/xamppfiles/htdocs/obec/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 /Applications/XAMPP/xamppfiles/htdocs/obec/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/XAMPP/xamppfiles/htdocs/obec/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /Applications/XAMPP/xamppfiles/htdocs/obec/system/Commands/Server/rewrite.php(46): require_once('/Applications/X...')
+#11 {main}
+CRITICAL - 2022-11-09 04:03:58 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `email` = :email:
+AND `status` = :status:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Controllers/Login.php(20): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Login->auth()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2022-11-09 04:04:27 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /Applications/XAMPP/xamppfiles/htdocs/obec/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/obec/system/Database/MySQLi/Connection.php(171): mysqli->real_connect('localhost', '', '', '', 3306, '', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/obec/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /Applications/XAMPP/xamppfiles/htdocs/obec/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 /Applications/XAMPP/xamppfiles/htdocs/obec/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/obec/system/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/XAMPP/xamppfiles/htdocs/obec/system/BaseModel.php(623): CodeIgniter\Model->doFirst()
+#6 /Applications/XAMPP/xamppfiles/htdocs/obec/app/Controllers/Login.php(20): CodeIgniter\BaseModel->first()
+#7 /Applications/XAMPP/xamppfiles/htdocs/obec/system/CodeIgniter.php(927): App\Controllers\Login->auth()
+#8 /Applications/XAMPP/xamppfiles/htdocs/obec/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 /Applications/XAMPP/xamppfiles/htdocs/obec/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Applications/XAMPP/xamppfiles/htdocs/obec/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/obec/system/Commands/Server/rewrite.php(46): require_once('/Applications/X...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /Applications/XAMPP/xamppfiles/htdocs/obec/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/obec/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /Applications/XAMPP/xamppfiles/htdocs/obec/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 /Applications/XAMPP/xamppfiles/htdocs/obec/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /Applications/XAMPP/xamppfiles/htdocs/obec/system/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#4 /Applications/XAMPP/xamppfiles/htdocs/obec/system/BaseModel.php(623): CodeIgniter\Model->doFirst()
+#5 /Applications/XAMPP/xamppfiles/htdocs/obec/app/Controllers/Login.php(20): CodeIgniter\BaseModel->first()
+#6 /Applications/XAMPP/xamppfiles/htdocs/obec/system/CodeIgniter.php(927): App\Controllers\Login->auth()
+#7 /Applications/XAMPP/xamppfiles/htdocs/obec/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 /Applications/XAMPP/xamppfiles/htdocs/obec/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/XAMPP/xamppfiles/htdocs/obec/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /Applications/XAMPP/xamppfiles/htdocs/obec/system/Commands/Server/rewrite.php(46): require_once('/Applications/X...')
+#11 {main}
+CRITICAL - 2022-11-09 04:04:27 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `email` = :email:
+AND `status` = :status:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Controllers/Login.php(20): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Login->auth()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2022-11-09 04:16:17 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /Applications/XAMPP/xamppfiles/htdocs/obec/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/obec/system/Database/MySQLi/Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'obec_1', 3306, '', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/obec/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /Applications/XAMPP/xamppfiles/htdocs/obec/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 /Applications/XAMPP/xamppfiles/htdocs/obec/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/obec/system/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/XAMPP/xamppfiles/htdocs/obec/system/BaseModel.php(623): CodeIgniter\Model->doFirst()
+#6 /Applications/XAMPP/xamppfiles/htdocs/obec/app/Controllers/Login.php(20): CodeIgniter\BaseModel->first()
+#7 /Applications/XAMPP/xamppfiles/htdocs/obec/system/CodeIgniter.php(927): App\Controllers\Login->auth()
+#8 /Applications/XAMPP/xamppfiles/htdocs/obec/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 /Applications/XAMPP/xamppfiles/htdocs/obec/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Applications/XAMPP/xamppfiles/htdocs/obec/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/obec/system/Commands/Server/rewrite.php(46): require_once('/Applications/X...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /Applications/XAMPP/xamppfiles/htdocs/obec/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/obec/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /Applications/XAMPP/xamppfiles/htdocs/obec/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 /Applications/XAMPP/xamppfiles/htdocs/obec/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /Applications/XAMPP/xamppfiles/htdocs/obec/system/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#4 /Applications/XAMPP/xamppfiles/htdocs/obec/system/BaseModel.php(623): CodeIgniter\Model->doFirst()
+#5 /Applications/XAMPP/xamppfiles/htdocs/obec/app/Controllers/Login.php(20): CodeIgniter\BaseModel->first()
+#6 /Applications/XAMPP/xamppfiles/htdocs/obec/system/CodeIgniter.php(927): App\Controllers\Login->auth()
+#7 /Applications/XAMPP/xamppfiles/htdocs/obec/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 /Applications/XAMPP/xamppfiles/htdocs/obec/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/XAMPP/xamppfiles/htdocs/obec/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /Applications/XAMPP/xamppfiles/htdocs/obec/system/Commands/Server/rewrite.php(46): require_once('/Applications/X...')
+#11 {main}
+CRITICAL - 2022-11-09 04:16:17 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `email` = :email:
+AND `status` = :status:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Controllers/Login.php(20): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Login->auth()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2022-11-09 04:17:37 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /Applications/XAMPP/xamppfiles/htdocs/obec/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/obec/system/Database/MySQLi/Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'obec_1', 3306, '', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/obec/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /Applications/XAMPP/xamppfiles/htdocs/obec/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 /Applications/XAMPP/xamppfiles/htdocs/obec/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/obec/system/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/XAMPP/xamppfiles/htdocs/obec/system/BaseModel.php(623): CodeIgniter\Model->doFirst()
+#6 /Applications/XAMPP/xamppfiles/htdocs/obec/app/Controllers/Login.php(20): CodeIgniter\BaseModel->first()
+#7 /Applications/XAMPP/xamppfiles/htdocs/obec/system/CodeIgniter.php(927): App\Controllers\Login->auth()
+#8 /Applications/XAMPP/xamppfiles/htdocs/obec/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 /Applications/XAMPP/xamppfiles/htdocs/obec/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Applications/XAMPP/xamppfiles/htdocs/obec/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/obec/system/Commands/Server/rewrite.php(46): require_once('/Applications/X...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /Applications/XAMPP/xamppfiles/htdocs/obec/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/obec/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /Applications/XAMPP/xamppfiles/htdocs/obec/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 /Applications/XAMPP/xamppfiles/htdocs/obec/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /Applications/XAMPP/xamppfiles/htdocs/obec/system/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#4 /Applications/XAMPP/xamppfiles/htdocs/obec/system/BaseModel.php(623): CodeIgniter\Model->doFirst()
+#5 /Applications/XAMPP/xamppfiles/htdocs/obec/app/Controllers/Login.php(20): CodeIgniter\BaseModel->first()
+#6 /Applications/XAMPP/xamppfiles/htdocs/obec/system/CodeIgniter.php(927): App\Controllers\Login->auth()
+#7 /Applications/XAMPP/xamppfiles/htdocs/obec/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 /Applications/XAMPP/xamppfiles/htdocs/obec/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/XAMPP/xamppfiles/htdocs/obec/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /Applications/XAMPP/xamppfiles/htdocs/obec/system/Commands/Server/rewrite.php(46): require_once('/Applications/X...')
+#11 {main}
+CRITICAL - 2022-11-09 04:17:37 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `email` = :email:
+AND `status` = :status:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Controllers/Login.php(20): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Login->auth()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2022-11-09 22:13:05 --> Error connecting to the database: ErrorException: mysqli::real_connect(): The server requested authentication method unknown to the client [caching_sha2_password] in /usr/home/moral/public_html/kuru/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /usr/home/moral/public_html/kuru/system/Database/MySQLi/Connection.php(171): mysqli->real_connect()
+#2 /usr/home/moral/public_html/kuru/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#3 /usr/home/moral/public_html/kuru/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#4 /usr/home/moral/public_html/kuru/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#5 /usr/home/moral/public_html/kuru/system/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#6 /usr/home/moral/public_html/kuru/system/BaseModel.php(623): CodeIgniter\Model->doFirst()
+#7 /usr/home/moral/public_html/kuru/app/Controllers/Login.php(20): CodeIgniter\BaseModel->first()
+#8 /usr/home/moral/public_html/kuru/system/CodeIgniter.php(927): App\Controllers\Login->auth()
+#9 /usr/home/moral/public_html/kuru/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#10 /usr/home/moral/public_html/kuru/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#11 /usr/home/moral/public_html/kuru/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next mysqli_sql_exception: The server requested authentication method unknown to the client in /usr/home/moral/public_html/kuru/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /usr/home/moral/public_html/kuru/system/Database/MySQLi/Connection.php(171): mysqli->real_connect()
+#1 /usr/home/moral/public_html/kuru/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /usr/home/moral/public_html/kuru/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 /usr/home/moral/public_html/kuru/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /usr/home/moral/public_html/kuru/system/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#5 /usr/home/moral/public_html/kuru/system/BaseModel.php(623): CodeIgniter\Model->doFirst()
+#6 /usr/home/moral/public_html/kuru/app/Controllers/Login.php(20): CodeIgniter\BaseModel->first()
+#7 /usr/home/moral/public_html/kuru/system/CodeIgniter.php(927): App\Controllers\Login->auth()
+#8 /usr/home/moral/public_html/kuru/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#9 /usr/home/moral/public_html/kuru/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#10 /usr/home/moral/public_html/kuru/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: The server requested authentication method unknown to the client in /usr/home/moral/public_html/kuru/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /usr/home/moral/public_html/kuru/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /usr/home/moral/public_html/kuru/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 /usr/home/moral/public_html/kuru/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#3 /usr/home/moral/public_html/kuru/system/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#4 /usr/home/moral/public_html/kuru/system/BaseModel.php(623): CodeIgniter\Model->doFirst()
+#5 /usr/home/moral/public_html/kuru/app/Controllers/Login.php(20): CodeIgniter\BaseModel->first()
+#6 /usr/home/moral/public_html/kuru/system/CodeIgniter.php(927): App\Controllers\Login->auth()
+#7 /usr/home/moral/public_html/kuru/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#8 /usr/home/moral/public_html/kuru/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#9 /usr/home/moral/public_html/kuru/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-11-09 22:13:05 --> Unable to connect to the database.
+Main connection [MySQLi]: The server requested authentication method unknown to the client
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Controllers/Login.php(20): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Login->auth()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-09 22:18:16 --> mysqli_sql_exception: Table 'star.users' doesn't exist in /usr/home/moral/public_html/kuru/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /usr/home/moral/public_html/kuru/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /usr/home/moral/public_html/kuru/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /usr/home/moral/public_html/kuru/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /usr/home/moral/public_html/kuru/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /usr/home/moral/public_html/kuru/system/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#5 /usr/home/moral/public_html/kuru/system/BaseModel.php(623): CodeIgniter\Model->doFirst()
+#6 /usr/home/moral/public_html/kuru/app/Controllers/Login.php(20): CodeIgniter\BaseModel->first()
+#7 /usr/home/moral/public_html/kuru/system/CodeIgniter.php(927): App\Controllers\Login->auth()
+#8 /usr/home/moral/public_html/kuru/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#9 /usr/home/moral/public_html/kuru/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#10 /usr/home/moral/public_html/kuru/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-11-09 22:18:16 --> Table 'star.users' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 7 APPPATH/Controllers/Login.php(20): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Login->auth()
+ 9 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-09 22:18:56 --> mysqli_sql_exception: Table 'star.users' doesn't exist in /usr/home/moral/public_html/kuru/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /usr/home/moral/public_html/kuru/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /usr/home/moral/public_html/kuru/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /usr/home/moral/public_html/kuru/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /usr/home/moral/public_html/kuru/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /usr/home/moral/public_html/kuru/system/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#5 /usr/home/moral/public_html/kuru/system/BaseModel.php(623): CodeIgniter\Model->doFirst()
+#6 /usr/home/moral/public_html/kuru/app/Controllers/Login.php(20): CodeIgniter\BaseModel->first()
+#7 /usr/home/moral/public_html/kuru/system/CodeIgniter.php(927): App\Controllers\Login->auth()
+#8 /usr/home/moral/public_html/kuru/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#9 /usr/home/moral/public_html/kuru/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#10 /usr/home/moral/public_html/kuru/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-11-09 22:18:56 --> Table 'star.users' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 7 APPPATH/Controllers/Login.php(20): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Login->auth()
+ 9 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-09 22:19:16 --> mysqli_sql_exception: Table 'star.users' doesn't exist in /usr/home/moral/public_html/kuru/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /usr/home/moral/public_html/kuru/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /usr/home/moral/public_html/kuru/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /usr/home/moral/public_html/kuru/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /usr/home/moral/public_html/kuru/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /usr/home/moral/public_html/kuru/system/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#5 /usr/home/moral/public_html/kuru/system/BaseModel.php(623): CodeIgniter\Model->doFirst()
+#6 /usr/home/moral/public_html/kuru/app/Controllers/Login.php(20): CodeIgniter\BaseModel->first()
+#7 /usr/home/moral/public_html/kuru/system/CodeIgniter.php(927): App\Controllers\Login->auth()
+#8 /usr/home/moral/public_html/kuru/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#9 /usr/home/moral/public_html/kuru/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#10 /usr/home/moral/public_html/kuru/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-11-09 22:19:16 --> Table 'star.users' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 7 APPPATH/Controllers/Login.php(20): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Login->auth()
+ 9 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-09 22:20:22 --> mysqli_sql_exception: Table 'star.users' doesn't exist in /usr/home/moral/public_html/kuru/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /usr/home/moral/public_html/kuru/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /usr/home/moral/public_html/kuru/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /usr/home/moral/public_html/kuru/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /usr/home/moral/public_html/kuru/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /usr/home/moral/public_html/kuru/system/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#5 /usr/home/moral/public_html/kuru/system/BaseModel.php(623): CodeIgniter\Model->doFirst()
+#6 /usr/home/moral/public_html/kuru/app/Controllers/Login.php(20): CodeIgniter\BaseModel->first()
+#7 /usr/home/moral/public_html/kuru/system/CodeIgniter.php(927): App\Controllers\Login->auth()
+#8 /usr/home/moral/public_html/kuru/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#9 /usr/home/moral/public_html/kuru/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#10 /usr/home/moral/public_html/kuru/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-11-09 22:20:22 --> Table 'star.users' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 7 APPPATH/Controllers/Login.php(20): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Login->auth()
+ 9 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-09 22:21:48 --> mysqli_sql_exception: Table 'star.users' doesn't exist in /usr/home/moral/public_html/kuru/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /usr/home/moral/public_html/kuru/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /usr/home/moral/public_html/kuru/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /usr/home/moral/public_html/kuru/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /usr/home/moral/public_html/kuru/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /usr/home/moral/public_html/kuru/system/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#5 /usr/home/moral/public_html/kuru/system/BaseModel.php(623): CodeIgniter\Model->doFirst()
+#6 /usr/home/moral/public_html/kuru/app/Controllers/Login.php(20): CodeIgniter\BaseModel->first()
+#7 /usr/home/moral/public_html/kuru/system/CodeIgniter.php(927): App\Controllers\Login->auth()
+#8 /usr/home/moral/public_html/kuru/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#9 /usr/home/moral/public_html/kuru/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#10 /usr/home/moral/public_html/kuru/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-11-09 22:21:48 --> Table 'star.users' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 7 APPPATH/Controllers/Login.php(20): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Login->auth()
+ 9 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-09 22:22:01 --> mysqli_sql_exception: Table 'star.users' doesn't exist in /usr/home/moral/public_html/kuru/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /usr/home/moral/public_html/kuru/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /usr/home/moral/public_html/kuru/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /usr/home/moral/public_html/kuru/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /usr/home/moral/public_html/kuru/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /usr/home/moral/public_html/kuru/system/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#5 /usr/home/moral/public_html/kuru/system/BaseModel.php(623): CodeIgniter\Model->doFirst()
+#6 /usr/home/moral/public_html/kuru/app/Controllers/Login.php(20): CodeIgniter\BaseModel->first()
+#7 /usr/home/moral/public_html/kuru/system/CodeIgniter.php(927): App\Controllers\Login->auth()
+#8 /usr/home/moral/public_html/kuru/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#9 /usr/home/moral/public_html/kuru/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#10 /usr/home/moral/public_html/kuru/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-11-09 22:22:01 --> Table 'star.users' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 7 APPPATH/Controllers/Login.php(20): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Login->auth()
+ 9 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-09 22:23:59 --> mysqli_sql_exception: Table 'star.users' doesn't exist in /usr/home/moral/public_html/kuru/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /usr/home/moral/public_html/kuru/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /usr/home/moral/public_html/kuru/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /usr/home/moral/public_html/kuru/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /usr/home/moral/public_html/kuru/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /usr/home/moral/public_html/kuru/system/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#5 /usr/home/moral/public_html/kuru/system/BaseModel.php(623): CodeIgniter\Model->doFirst()
+#6 /usr/home/moral/public_html/kuru/app/Controllers/Login.php(20): CodeIgniter\BaseModel->first()
+#7 /usr/home/moral/public_html/kuru/system/CodeIgniter.php(927): App\Controllers\Login->auth()
+#8 /usr/home/moral/public_html/kuru/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#9 /usr/home/moral/public_html/kuru/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#10 /usr/home/moral/public_html/kuru/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-11-09 22:23:59 --> Table 'star.users' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 7 APPPATH/Controllers/Login.php(20): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Login->auth()
+ 9 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-09 22:24:16 --> mysqli_sql_exception: Table 'star.users' doesn't exist in /usr/home/moral/public_html/kuru/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /usr/home/moral/public_html/kuru/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /usr/home/moral/public_html/kuru/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /usr/home/moral/public_html/kuru/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /usr/home/moral/public_html/kuru/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /usr/home/moral/public_html/kuru/system/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#5 /usr/home/moral/public_html/kuru/system/BaseModel.php(623): CodeIgniter\Model->doFirst()
+#6 /usr/home/moral/public_html/kuru/app/Controllers/Login.php(20): CodeIgniter\BaseModel->first()
+#7 /usr/home/moral/public_html/kuru/system/CodeIgniter.php(927): App\Controllers\Login->auth()
+#8 /usr/home/moral/public_html/kuru/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#9 /usr/home/moral/public_html/kuru/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#10 /usr/home/moral/public_html/kuru/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-11-09 22:24:16 --> Table 'star.users' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 7 APPPATH/Controllers/Login.php(20): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Login->auth()
+ 9 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-09 22:24:32 --> mysqli_sql_exception: Table 'star.users' doesn't exist in /usr/home/moral/public_html/kuru/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /usr/home/moral/public_html/kuru/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /usr/home/moral/public_html/kuru/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /usr/home/moral/public_html/kuru/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /usr/home/moral/public_html/kuru/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /usr/home/moral/public_html/kuru/system/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#5 /usr/home/moral/public_html/kuru/system/BaseModel.php(623): CodeIgniter\Model->doFirst()
+#6 /usr/home/moral/public_html/kuru/app/Controllers/Login.php(20): CodeIgniter\BaseModel->first()
+#7 /usr/home/moral/public_html/kuru/system/CodeIgniter.php(927): App\Controllers\Login->auth()
+#8 /usr/home/moral/public_html/kuru/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#9 /usr/home/moral/public_html/kuru/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#10 /usr/home/moral/public_html/kuru/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-11-09 22:24:32 --> Table 'star.users' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 7 APPPATH/Controllers/Login.php(20): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Login->auth()
+ 9 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-09 22:30:18 --> mysqli_sql_exception: Table 'star.users' doesn't exist in /usr/home/moral/public_html/kuru/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /usr/home/moral/public_html/kuru/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /usr/home/moral/public_html/kuru/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /usr/home/moral/public_html/kuru/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /usr/home/moral/public_html/kuru/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /usr/home/moral/public_html/kuru/system/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#5 /usr/home/moral/public_html/kuru/system/BaseModel.php(623): CodeIgniter\Model->doFirst()
+#6 /usr/home/moral/public_html/kuru/app/Controllers/Login.php(20): CodeIgniter\BaseModel->first()
+#7 /usr/home/moral/public_html/kuru/system/CodeIgniter.php(927): App\Controllers\Login->auth()
+#8 /usr/home/moral/public_html/kuru/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#9 /usr/home/moral/public_html/kuru/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#10 /usr/home/moral/public_html/kuru/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-11-09 22:30:18 --> Table 'star.users' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 7 APPPATH/Controllers/Login.php(20): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Login->auth()
+ 9 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-09 22:31:43 --> mysqli_sql_exception: Unknown column 'email' in 'where clause' in /usr/home/moral/public_html/kuru/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /usr/home/moral/public_html/kuru/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /usr/home/moral/public_html/kuru/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /usr/home/moral/public_html/kuru/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /usr/home/moral/public_html/kuru/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /usr/home/moral/public_html/kuru/system/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#5 /usr/home/moral/public_html/kuru/system/BaseModel.php(623): CodeIgniter\Model->doFirst()
+#6 /usr/home/moral/public_html/kuru/app/Controllers/Login.php(20): CodeIgniter\BaseModel->first()
+#7 /usr/home/moral/public_html/kuru/system/CodeIgniter.php(927): App\Controllers\Login->auth()
+#8 /usr/home/moral/public_html/kuru/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#9 /usr/home/moral/public_html/kuru/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#10 /usr/home/moral/public_html/kuru/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-11-09 22:31:43 --> Unknown column 'email' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 7 APPPATH/Controllers/Login.php(20): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Login->auth()
+ 9 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-09 22:31:48 --> mysqli_sql_exception: Unknown column 'email' in 'where clause' in /usr/home/moral/public_html/kuru/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /usr/home/moral/public_html/kuru/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /usr/home/moral/public_html/kuru/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /usr/home/moral/public_html/kuru/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /usr/home/moral/public_html/kuru/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /usr/home/moral/public_html/kuru/system/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#5 /usr/home/moral/public_html/kuru/system/BaseModel.php(623): CodeIgniter\Model->doFirst()
+#6 /usr/home/moral/public_html/kuru/app/Controllers/Login.php(20): CodeIgniter\BaseModel->first()
+#7 /usr/home/moral/public_html/kuru/system/CodeIgniter.php(927): App\Controllers\Login->auth()
+#8 /usr/home/moral/public_html/kuru/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#9 /usr/home/moral/public_html/kuru/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#10 /usr/home/moral/public_html/kuru/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-11-09 22:31:48 --> Unknown column 'email' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 7 APPPATH/Controllers/Login.php(20): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Login->auth()
+ 9 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-09 22:32:35 --> mysqli_sql_exception: Unknown column 'email' in 'where clause' in /usr/home/moral/public_html/kuru/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /usr/home/moral/public_html/kuru/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /usr/home/moral/public_html/kuru/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /usr/home/moral/public_html/kuru/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /usr/home/moral/public_html/kuru/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /usr/home/moral/public_html/kuru/system/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#5 /usr/home/moral/public_html/kuru/system/BaseModel.php(623): CodeIgniter\Model->doFirst()
+#6 /usr/home/moral/public_html/kuru/app/Controllers/Login.php(20): CodeIgniter\BaseModel->first()
+#7 /usr/home/moral/public_html/kuru/system/CodeIgniter.php(927): App\Controllers\Login->auth()
+#8 /usr/home/moral/public_html/kuru/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#9 /usr/home/moral/public_html/kuru/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#10 /usr/home/moral/public_html/kuru/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-11-09 22:32:35 --> Unknown column 'email' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 7 APPPATH/Controllers/Login.php(20): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Login->auth()
+ 9 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-09 22:33:37 --> mysqli_sql_exception: Unknown column 'email' in 'where clause' in /usr/home/moral/public_html/kuru/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /usr/home/moral/public_html/kuru/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /usr/home/moral/public_html/kuru/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /usr/home/moral/public_html/kuru/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /usr/home/moral/public_html/kuru/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /usr/home/moral/public_html/kuru/system/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#5 /usr/home/moral/public_html/kuru/system/BaseModel.php(623): CodeIgniter\Model->doFirst()
+#6 /usr/home/moral/public_html/kuru/app/Controllers/Login.php(20): CodeIgniter\BaseModel->first()
+#7 /usr/home/moral/public_html/kuru/system/CodeIgniter.php(927): App\Controllers\Login->auth()
+#8 /usr/home/moral/public_html/kuru/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#9 /usr/home/moral/public_html/kuru/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#10 /usr/home/moral/public_html/kuru/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-11-09 22:33:37 --> Unknown column 'email' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 7 APPPATH/Controllers/Login.php(20): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Login->auth()
+ 9 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 22:38:44 --> syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF)
+in APPPATH/Views/frontend/index.php on line 31.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Pages.php(43): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Pages->index()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 22:39:05 --> syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF)
+in APPPATH/Views/frontend/index.php on line 31.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Pages.php(43): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Pages->index()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 22:39:36 --> syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF)
+in APPPATH/Views/frontend/index.php on line 31.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Pages.php(43): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Pages->index()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 22:41:17 --> syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF)
+in APPPATH/Views/frontend/index.php on line 31.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Pages.php(43): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Pages->index()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 23:41:04 --> syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF)
+in APPPATH/Views/frontend/index.php on line 31.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Pages.php(43): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Pages->index()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 23:41:14 --> syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF)
+in APPPATH/Views/frontend/index.php on line 31.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Pages.php(43): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Pages->index()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

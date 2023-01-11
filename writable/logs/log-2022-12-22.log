@@ -1,0 +1,341 @@
+CRITICAL - 2022-12-22 09:53:40 --> Class 'App\Controllers\ClustersModel' not found
+in APPPATH/Controllers/Login.php on line 28.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Login->auth()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-22 09:55:51 --> Class 'App\Controllers\ClustersModel' not found
+in APPPATH/Controllers/Login.php on line 28.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Login->auth()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-22 09:59:15 --> Invalid file: frontend/register.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('frontend/register.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('frontend/register', [], true)
+ 3 APPPATH/Controllers/Login.php(86): view('frontend/register', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Login->auth()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-22 10:00:00 --> Undefined variable: area_code
+in APPPATH/Views/frontend/register.php on line 46.
+ 1 APPPATH/Views/frontend/register.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: area_code', 'APPPATH/Views/frontend/register.php', 46, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/frontend/register.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('frontend/register', [], true)
+ 5 APPPATH/Controllers/Login.php(86): view('frontend/register', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Login->auth()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-22 10:10:45 --> Undefined variable: areamodel
+in APPPATH/Controllers/Login.php on line 85.
+ 1 APPPATH/Controllers/Login.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: areamodel', 'APPPATH/Controllers/Login.php', 85, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Login->auth()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-22 10:13:14 --> Undefined variable: cluserModel
+in APPPATH/Controllers/Login.php on line 87.
+ 1 APPPATH/Controllers/Login.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: cluserModel', 'APPPATH/Controllers/Login.php', 87, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Login->auth()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-22 10:17:01 --> Undefined variable: model
+in APPPATH/Controllers/Login.php on line 78.
+ 1 APPPATH/Controllers/Login.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: model', 'APPPATH/Controllers/Login.php', 78, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Login->auth()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-22 10:18:28 --> Undefined variable: area_code
+in APPPATH/Views/frontend/registerSchool.php on line 55.
+ 1 APPPATH/Views/frontend/registerSchool.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: area_code', 'APPPATH/Views/frontend/registerSchool.php', 55, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/frontend/registerSchool.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('frontend/registerSchool', [], true)
+ 5 APPPATH/Controllers/Login.php(89): view('frontend/registerSchool', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Login->auth()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-22 10:24:06 --> Undefined variable: sch_code
+in APPPATH/Views/frontend/registerSchool.php on line 123.
+ 1 APPPATH/Views/frontend/registerSchool.php(123): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: sch_code', 'APPPATH/Views/frontend/registerSchool.php', 123, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/frontend/registerSchool.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('frontend/registerSchool', [], true)
+ 5 APPPATH/Controllers/Login.php(89): view('frontend/registerSchool', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Login->auth()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-22 10:43:15 --> Undefined variable: b
+in APPPATH/Views/frontend/registerSchool.php on line 57.
+ 1 APPPATH/Views/frontend/registerSchool.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: b', 'APPPATH/Views/frontend/registerSchool.php', 57, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/frontend/registerSchool.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('frontend/registerSchool', [], true)
+ 5 APPPATH/Controllers/Login.php(89): view('frontend/registerSchool', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Login->auth()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-22 11:08:37 --> Undefined variable: cluster
+in APPPATH/Views/frontend/registerSchool.php on line 47.
+ 1 APPPATH/Views/frontend/registerSchool.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: cluster', 'APPPATH/Views/frontend/registerSchool.php', 47, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/frontend/registerSchool.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('frontend/registerSchool', [], true)
+ 5 APPPATH/Controllers/RegisterSchoolController.php(23): view('frontend/registerSchool', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\RegisterSchoolController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterSchoolController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-22 11:12:06 --> Undefined variable: cluster
+in APPPATH/Views/frontend/registerSchool.php on line 47.
+ 1 APPPATH/Views/frontend/registerSchool.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: cluster', 'APPPATH/Views/frontend/registerSchool.php', 47, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/frontend/registerSchool.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('frontend/registerSchool', [], true)
+ 5 APPPATH/Controllers/RegisterController.php(23): view('frontend/registerSchool', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\RegisterController->RegSchool()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-22 12:21:50 --> syntax error, unexpected '{'
+in APPPATH/Controllers/RegisterController.php on line 33.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/RegisterController.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\RegisterController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\RegisterController')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\RegisterController')
+ 5 SYSTEMPATH/CodeIgniter.php(877): class_exists('\\App\\Controllers\\RegisterController', true)
+ 6 SYSTEMPATH/CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-22 12:39:37 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH/Views/template/navbar/navbar_admin.php on line 18.
+ 1 APPPATH/Views/template/navbar/navbar_admin.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\View\\View::$session', 'APPPATH/Views/template/navbar/navbar_admin.php', 18, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/template/navbar/navbar_admin.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('template/navbar/navbar_admin', [], true)
+ 5 APPPATH/Views/admin/dashboard.php(4): view('template/navbar/navbar_admin')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/dashboard.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 9 APPPATH/Controllers/AdminController.php(13): view('admin/dashboard', [...])
+10 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AdminController->index()
+11 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+12 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-22 12:55:00 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH/Views/template/navbar/navbar_admin.php on line 18.
+ 1 APPPATH/Views/template/navbar/navbar_admin.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\View\\View::$session', 'APPPATH/Views/template/navbar/navbar_admin.php', 18, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/template/navbar/navbar_admin.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('template/navbar/navbar_admin', [], true)
+ 5 APPPATH/Views/admin/dashboard.php(4): view('template/navbar/navbar_admin')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/dashboard.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 9 APPPATH/Controllers/AdminController.php(13): view('admin/dashboard', [...])
+10 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AdminController->index()
+11 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+12 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-22 13:28:50 --> Undefined property: CodeIgniter\View\View::$uri
+in APPPATH/Views/template/breadcrumb.php on line 12.
+ 1 APPPATH/Views/template/breadcrumb.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\View\\View::$uri', 'APPPATH/Views/template/breadcrumb.php', 12, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/template/breadcrumb.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('template/breadcrumb', [], true)
+ 5 APPPATH/Views/template/content_header.php(10): view('template/breadcrumb')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/template/content_header.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('template/content_header', [], true)
+ 9 APPPATH/Views/admin/dashboard.php(12): view('template/content_header')
+10 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/dashboard.php')
+11 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/dashboard', [], true)
+13 APPPATH/Controllers/AdminController.php(13): view('admin/dashboard', [...])
+14 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AdminController->index()
+15 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+16 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+18 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-22 13:34:49 --> syntax error, unexpected ')'
+in APPPATH/Views/template/breadcrumb.php on line 16.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('template/breadcrumb', [], true)
+ 3 APPPATH/Views/template/content_header.php(10): view('template/breadcrumb')
+ 4 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/template/content_header.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('template/content_header', [], true)
+ 7 APPPATH/Views/admin/dashboard.php(12): view('template/content_header')
+ 8 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/dashboard.php')
+ 9 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/dashboard', [], true)
+11 APPPATH/Controllers/AdminController.php(13): view('admin/dashboard', [...])
+12 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AdminController->index()
+13 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+14 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-22 13:35:26 --> Undefined variable: uri_two
+in APPPATH/Views/template/breadcrumb.php on line 12.
+ 1 APPPATH/Views/template/breadcrumb.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: uri_two', 'APPPATH/Views/template/breadcrumb.php', 12, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/template/breadcrumb.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('template/breadcrumb', [], true)
+ 5 APPPATH/Views/template/content_header.php(10): view('template/breadcrumb')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/template/content_header.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('template/content_header', [], true)
+ 9 APPPATH/Views/admin/dashboard.php(12): view('template/content_header')
+10 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/dashboard.php')
+11 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/dashboard', [], true)
+13 APPPATH/Controllers/AdminController.php(13): view('admin/dashboard', [...])
+14 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AdminController->index()
+15 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+16 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+18 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-22 14:37:03 --> Class 'App\Models\ProvincesModel' not found
+in APPPATH/Controllers/SchoolController.php on line 109.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\SchoolController->profile()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SchoolController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-22 14:39:13 --> Class 'App\Controllers\ProvincesModel' not found
+in APPPATH/Controllers/SchoolController.php on line 109.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\SchoolController->profile()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SchoolController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2022-12-22 14:50:44 --> mysqli_sql_exception: Unknown column 'clus_id' in 'order clause' in /Users/chudphikul/Desktop/moral_obec/kuru/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /Users/chudphikul/Desktop/moral_obec/kuru/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /Users/chudphikul/Desktop/moral_obec/kuru/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Users/chudphikul/Desktop/moral_obec/kuru/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Users/chudphikul/Desktop/moral_obec/kuru/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Users/chudphikul/Desktop/moral_obec/kuru/system/Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/chudphikul/Desktop/moral_obec/kuru/system/BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#6 /Users/chudphikul/Desktop/moral_obec/kuru/app/Controllers/SchoolController.php(122): CodeIgniter\BaseModel->findAll()
+#7 /Users/chudphikul/Desktop/moral_obec/kuru/system/CodeIgniter.php(927): App\Controllers\SchoolController->profile()
+#8 /Users/chudphikul/Desktop/moral_obec/kuru/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SchoolController))
+#9 /Users/chudphikul/Desktop/moral_obec/kuru/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/chudphikul/Desktop/moral_obec/kuru/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 /Users/chudphikul/Desktop/moral_obec/kuru/system/Commands/Server/rewrite.php(46): require_once('/Users/chudphik...')
+#12 {main}
+CRITICAL - 2022-12-22 14:50:44 --> Unknown column 'clus_id' in 'order clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *
+FROM `area`
+ORDER BY `clus_id` ASC', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `area`
+ORDER BY `clus_id` ASC')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `area`
+ORDER BY `clus_id` ASC')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `area`
+ORDER BY `clus_id` ASC', [], false)
+ 5 SYSTEMPATH/Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH/Controllers/SchoolController.php(122): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\SchoolController->profile()
+ 9 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SchoolController))
+10 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2022-12-22 14:51:41 --> mysqli_sql_exception: Unknown column 'clus_id' in 'order clause' in /Users/chudphikul/Desktop/moral_obec/kuru/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /Users/chudphikul/Desktop/moral_obec/kuru/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /Users/chudphikul/Desktop/moral_obec/kuru/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Users/chudphikul/Desktop/moral_obec/kuru/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Users/chudphikul/Desktop/moral_obec/kuru/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Users/chudphikul/Desktop/moral_obec/kuru/system/Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/chudphikul/Desktop/moral_obec/kuru/system/BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#6 /Users/chudphikul/Desktop/moral_obec/kuru/app/Controllers/SchoolController.php(122): CodeIgniter\BaseModel->findAll()
+#7 /Users/chudphikul/Desktop/moral_obec/kuru/system/CodeIgniter.php(927): App\Controllers\SchoolController->profile()
+#8 /Users/chudphikul/Desktop/moral_obec/kuru/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SchoolController))
+#9 /Users/chudphikul/Desktop/moral_obec/kuru/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/chudphikul/Desktop/moral_obec/kuru/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 /Users/chudphikul/Desktop/moral_obec/kuru/system/Commands/Server/rewrite.php(46): require_once('/Users/chudphik...')
+#12 {main}
+CRITICAL - 2022-12-22 14:51:41 --> Unknown column 'clus_id' in 'order clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *
+FROM `area`
+ORDER BY `clus_id` ASC', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `area`
+ORDER BY `clus_id` ASC')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `area`
+ORDER BY `clus_id` ASC')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `area`
+ORDER BY `clus_id` ASC', [], false)
+ 5 SYSTEMPATH/Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH/Controllers/SchoolController.php(122): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\SchoolController->profile()
+ 9 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SchoolController))
+10 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-22 14:52:33 --> Invalid file: admin/profile.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/profile.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/profile', [], true)
+ 3 APPPATH/Controllers/SchoolController.php(125): view('admin/profile', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\SchoolController->profile()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SchoolController))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-22 14:54:10 --> Invalid file: admin/profile.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/profile.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/profile', [], true)
+ 3 APPPATH/Controllers/SchoolController.php(125): view('admin/profile', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\SchoolController->profile()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SchoolController))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-22 14:54:55 --> Undefined index: user_address
+in APPPATH/Views/school/profile.php on line 127.
+ 1 APPPATH/Views/school/profile.php(127): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: user_address', 'APPPATH/Views/school/profile.php', 127, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/school/profile.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('school/profile', [], true)
+ 5 APPPATH/Controllers/SchoolController.php(125): view('school/profile', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\SchoolController->profile()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SchoolController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')

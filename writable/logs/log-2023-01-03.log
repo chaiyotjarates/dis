@@ -1,0 +1,308 @@
+CRITICAL - 2023-01-03 10:22:09 --> Call to undefined method App\Controllers\AdminController::chk_o_authen()
+in APPPATH/Controllers/AdminController.php on line 834.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AdminController->admin_user()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2023-01-03 10:25:48 --> Invalid file: admin/admin_user.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/admin_user.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/admin_user', [], true)
+ 3 APPPATH/Controllers/AdminController.php(845): view('admin/admin_user', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AdminController->admin_user()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2023-01-03 10:27:22 --> Undefined property: CodeIgniter\View\View::$load
+in APPPATH/Views/admin/admin_user.php on line 4.
+ 1 APPPATH/Views/admin/admin_user.php(4): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\View\\View::$load', 'APPPATH/Views/admin/admin_user.php', 4, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/admin_user.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/admin_user', [], true)
+ 5 APPPATH/Controllers/AdminController.php(845): view('admin/admin_user', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AdminController->admin_user()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2023-01-03 10:29:59 --> Undefined property: CodeIgniter\View\View::$load
+in APPPATH/Views/admin/admin_user.php on line 30.
+ 1 APPPATH/Views/admin/admin_user.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\View\\View::$load', 'APPPATH/Views/admin/admin_user.php', 30, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/admin_user.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/admin_user', [], true)
+ 5 APPPATH/Controllers/AdminController.php(845): view('admin/admin_user', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AdminController->admin_user()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2023-01-03 10:30:52 --> Trying to get property 'user_prefix' of non-object
+in APPPATH/Views/admin/admin_user.php on line 78.
+ 1 APPPATH/Views/admin/admin_user.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'user_prefix\' of non-object', 'APPPATH/Views/admin/admin_user.php', 78, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/admin_user.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/admin_user', [], true)
+ 5 APPPATH/Controllers/AdminController.php(845): view('admin/admin_user', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AdminController->admin_user()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2023-01-03 10:41:01 --> Call to undefined method App\Controllers\AdminController::chk_o_authen()
+in APPPATH/Controllers/AdminController.php on line 851.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AdminController->getprofileadmin('1')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2023-01-03 12:53:23 --> mysqli_sql_exception: Unknown column 'ีuser_id' in 'where clause' in /Users/chudphikul/Desktop/moral_obec/kuru/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /Users/chudphikul/Desktop/moral_obec/kuru/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /Users/chudphikul/Desktop/moral_obec/kuru/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Users/chudphikul/Desktop/moral_obec/kuru/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Users/chudphikul/Desktop/moral_obec/kuru/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Users/chudphikul/Desktop/moral_obec/kuru/system/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/chudphikul/Desktop/moral_obec/kuru/system/BaseModel.php(623): CodeIgniter\Model->doFirst()
+#6 /Users/chudphikul/Desktop/moral_obec/kuru/app/Controllers/AdminController.php(859): CodeIgniter\BaseModel->first()
+#7 /Users/chudphikul/Desktop/moral_obec/kuru/system/CodeIgniter.php(927): App\Controllers\AdminController->getprofileadmin('1')
+#8 /Users/chudphikul/Desktop/moral_obec/kuru/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#9 /Users/chudphikul/Desktop/moral_obec/kuru/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/chudphikul/Desktop/moral_obec/kuru/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 /Users/chudphikul/Desktop/moral_obec/kuru/system/Commands/Server/rewrite.php(46): require_once('/Users/chudphik...')
+#12 {main}
+CRITICAL - 2023-01-03 12:53:23 --> Unknown column 'ีuser_id' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *
+FROM `admin_user`
+WHERE `ีuser_id` = \'1\'
+AND `admin_user`.`deleted_at` IS NULL
+ LIMIT 1', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `admin_user`
+WHERE `ีuser_id` = \'1\'
+AND `admin_user`.`deleted_at` IS NULL
+ LIMIT 1')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `admin_user`
+WHERE `ีuser_id` = \'1\'
+AND `admin_user`.`deleted_at` IS NULL
+ LIMIT 1')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `admin_user`
+WHERE `ีuser_id` = :ีuser_id:
+AND `admin_user`.`deleted_at` IS NULL
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 7 APPPATH/Controllers/AdminController.php(859): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AdminController->getprofileadmin('1')
+ 9 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+10 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2023-01-03 12:53:35 --> Undefined property: CodeIgniter\View\View::$load
+in APPPATH/Views/admin/getprofileadmin.php on line 4.
+ 1 APPPATH/Views/admin/getprofileadmin.php(4): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\View\\View::$load', 'APPPATH/Views/admin/getprofileadmin.php', 4, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/getprofileadmin.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/getprofileadmin', [], true)
+ 5 APPPATH/Controllers/AdminController.php(863): view('admin/getprofileadmin', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AdminController->getprofileadmin('1')
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2023-01-03 12:55:28 --> Undefined property: CodeIgniter\View\View::$load
+in APPPATH/Views/admin/getprofileadmin.php on line 4.
+ 1 APPPATH/Views/admin/getprofileadmin.php(4): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\View\\View::$load', 'APPPATH/Views/admin/getprofileadmin.php', 4, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/getprofileadmin.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/getprofileadmin', [], true)
+ 5 APPPATH/Controllers/AdminController.php(863): view('admin/getprofileadmin', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AdminController->getprofileadmin('1')
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2023-01-03 12:57:25 --> Undefined variable: user
+in APPPATH/Views/admin/getprofileadmin.php on line 35.
+ 1 APPPATH/Views/admin/getprofileadmin.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: user', 'APPPATH/Views/admin/getprofileadmin.php', 35, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/getprofileadmin.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/getprofileadmin', [], true)
+ 5 APPPATH/Controllers/AdminController.php(863): view('admin/getprofileadmin', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AdminController->getprofileadmin('1')
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2023-01-03 12:57:55 --> Trying to get property 'user_prefix' of non-object
+in APPPATH/Views/admin/getprofileadmin.php on line 35.
+ 1 APPPATH/Views/admin/getprofileadmin.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'user_prefix\' of non-object', 'APPPATH/Views/admin/getprofileadmin.php', 35, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/getprofileadmin.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/getprofileadmin', [], true)
+ 5 APPPATH/Controllers/AdminController.php(863): view('admin/getprofileadmin', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AdminController->getprofileadmin('1')
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2023-01-03 13:01:57 --> Trying to get property 'user_profile' of non-object
+in APPPATH/Views/admin/getprofileadmin.php on line 52.
+ 1 APPPATH/Views/admin/getprofileadmin.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'user_profile\' of non-object', 'APPPATH/Views/admin/getprofileadmin.php', 52, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/getprofileadmin.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/getprofileadmin', [], true)
+ 5 APPPATH/Controllers/AdminController.php(863): view('admin/getprofileadmin', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AdminController->getprofileadmin('1')
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2023-01-03 13:03:31 --> Trying to get property 'user_profile' of non-object
+in APPPATH/Views/admin/getprofileadmin.php on line 52.
+ 1 APPPATH/Views/admin/getprofileadmin.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'user_profile\' of non-object', 'APPPATH/Views/admin/getprofileadmin.php', 52, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/getprofileadmin.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/getprofileadmin', [], true)
+ 5 APPPATH/Controllers/AdminController.php(863): view('admin/getprofileadmin', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AdminController->getprofileadmin('1')
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2023-01-03 13:04:55 --> Call to undefined method App\Controllers\AdminController::chk_o_authen()
+in APPPATH/Controllers/AdminController.php on line 870.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AdminController->editprofileadmin('1')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2023-01-03 13:06:25 --> Trying to get property 'user_prefix' of non-object
+in APPPATH/Views/admin/editprofileadmin.php on line 35.
+ 1 APPPATH/Views/admin/editprofileadmin.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'user_prefix\' of non-object', 'APPPATH/Views/admin/editprofileadmin.php', 35, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/editprofileadmin.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/editprofileadmin', [], true)
+ 5 APPPATH/Controllers/AdminController.php(881): view('admin/editprofileadmin', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AdminController->editprofileadmin('1')
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2023-01-03 13:11:17 --> Undefined variable: prefix
+in APPPATH/Views/admin/editprofileadmin.php on line 71.
+ 1 APPPATH/Views/admin/editprofileadmin.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: prefix', 'APPPATH/Views/admin/editprofileadmin.php', 71, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/editprofileadmin.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/editprofileadmin', [], true)
+ 5 APPPATH/Controllers/AdminController.php(881): view('admin/editprofileadmin', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AdminController->editprofileadmin('1')
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2023-01-03 17:56:37 --> Too few arguments to function App\Controllers\AdminController::upstatus_admin(), 0 passed in /Users/chudphikul/Desktop/moral_obec/kuru/system/CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH/Controllers/AdminController.php on line 998.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AdminController->upstatus_admin()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2023-01-03 17:56:44 --> Too few arguments to function App\Controllers\AdminController::upstatus_admin(), 0 passed in /Users/chudphikul/Desktop/moral_obec/kuru/system/CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH/Controllers/AdminController.php on line 998.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AdminController->upstatus_admin()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2023-01-03 18:00:09 --> Undefined property: App\Controllers\AdminController::$input
+in APPPATH/Controllers/AdminController.php on line 1003.
+ 1 APPPATH/Controllers/AdminController.php(1003): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\AdminController::$input', 'APPPATH/Controllers/AdminController.php', 1003, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AdminController->upstatus_admin()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2023-01-03 18:00:12 --> Undefined property: App\Controllers\AdminController::$input
+in APPPATH/Controllers/AdminController.php on line 1003.
+ 1 APPPATH/Controllers/AdminController.php(1003): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\AdminController::$input', 'APPPATH/Controllers/AdminController.php', 1003, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AdminController->upstatus_admin()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2023-01-03 18:00:14 --> Undefined property: App\Controllers\AdminController::$input
+in APPPATH/Controllers/AdminController.php on line 1003.
+ 1 APPPATH/Controllers/AdminController.php(1003): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\AdminController::$input', 'APPPATH/Controllers/AdminController.php', 1003, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AdminController->upstatus_admin()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2023-01-03 18:00:18 --> Undefined property: App\Controllers\AdminController::$input
+in APPPATH/Controllers/AdminController.php on line 1003.
+ 1 APPPATH/Controllers/AdminController.php(1003): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\AdminController::$input', 'APPPATH/Controllers/AdminController.php', 1003, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AdminController->upstatus_admin()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2023-01-03 18:06:04 --> Call to undefined method App\Controllers\AdminController::chk_o_authen()
+in APPPATH/Controllers/AdminController.php on line 1033.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AdminController->add_adminuser()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2023-01-03 18:07:09 --> Trying to get property 'prefix_title' of non-object
+in APPPATH/Views/admin/add_adminuser.php on line 61.
+ 1 APPPATH/Views/admin/add_adminuser.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'prefix_title\' of non-object', 'APPPATH/Views/admin/add_adminuser.php', 61, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/add_adminuser.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/add_adminuser', [], true)
+ 5 APPPATH/Controllers/AdminController.php(1045): view('admin/add_adminuser', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AdminController->add_adminuser()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2023-01-03 18:07:38 --> Call to undefined function form_error()
+in APPPATH/Views/admin/add_adminuser.php on line 64.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/add_adminuser', [], true)
+ 4 APPPATH/Controllers/AdminController.php(1045): view('admin/add_adminuser', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AdminController->add_adminuser()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2023-01-03 18:41:18 --> Undefined variable: admin_user
+in APPPATH/Views/admin/area_user.php on line 70.
+ 1 APPPATH/Views/admin/area_user.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: admin_user', 'APPPATH/Views/admin/area_user.php', 70, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/area_user.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/area_user', [], true)
+ 5 APPPATH/Controllers/AdminController.php(1151): view('admin/area_user', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AdminController->area_user()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2023-01-03 18:42:02 --> Undefined variable: user
+in APPPATH/Views/admin/area_user.php on line 70.
+ 1 APPPATH/Views/admin/area_user.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: user', 'APPPATH/Views/admin/area_user.php', 70, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/area_user.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/area_user', [], true)
+ 5 APPPATH/Controllers/AdminController.php(1151): view('admin/area_user', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AdminController->area_user()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')

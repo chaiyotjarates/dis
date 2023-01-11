@@ -1,0 +1,120 @@
+CRITICAL - 2023-01-06 06:09:27 --> Invalid file: admin/get_user.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/get_user.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/get_user', [], true)
+ 3 APPPATH/Controllers/AdminController.php(1841): view('admin/get_user', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AdminController->get_user()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2023-01-06 06:17:06 --> Undefined index: user_sch
+in APPPATH/Controllers/AdminController.php on line 1886.
+ 1 APPPATH/Controllers/AdminController.php(1886): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: user_sch', 'APPPATH/Controllers/AdminController.php', 1886, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AdminController->editprofile_user('1')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2023-01-06 07:00:53 --> Class 'App\Controllers\SupersUsersModel' not found
+in APPPATH/Controllers/AdminController.php on line 2198.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AdminController->super_user()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2023-01-06 07:04:27 --> Class 'App\Controllers\SupersUsersModel' not found
+in APPPATH/Controllers/AdminController.php on line 2198.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AdminController->super_user()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2023-01-06 07:05:39 --> Class 'App\Models\SupersUsersModel' not found
+in APPPATH/Controllers/AdminController.php on line 2199.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AdminController->super_user()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2023-01-06 07:06:24 --> mysqli_sql_exception: Unknown column 'supervis_user.deleted_at' in 'where clause' in /Users/chudphikul/Desktop/moral_obec/kuru/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /Users/chudphikul/Desktop/moral_obec/kuru/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /Users/chudphikul/Desktop/moral_obec/kuru/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Users/chudphikul/Desktop/moral_obec/kuru/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Users/chudphikul/Desktop/moral_obec/kuru/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Users/chudphikul/Desktop/moral_obec/kuru/system/Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/chudphikul/Desktop/moral_obec/kuru/system/BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#6 /Users/chudphikul/Desktop/moral_obec/kuru/app/Controllers/AdminController.php(2206): CodeIgniter\BaseModel->findAll()
+#7 /Users/chudphikul/Desktop/moral_obec/kuru/system/CodeIgniter.php(927): App\Controllers\AdminController->super_user()
+#8 /Users/chudphikul/Desktop/moral_obec/kuru/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#9 /Users/chudphikul/Desktop/moral_obec/kuru/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/chudphikul/Desktop/moral_obec/kuru/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 /Users/chudphikul/Desktop/moral_obec/kuru/system/Commands/Server/rewrite.php(46): require_once('/Users/chudphik...')
+#12 {main}
+CRITICAL - 2023-01-06 07:06:24 --> Unknown column 'supervis_user.deleted_at' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *
+FROM `supervis_user`
+WHERE `supervis_user`.`deleted_at` IS NULL', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `supervis_user`
+WHERE `supervis_user`.`deleted_at` IS NULL')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `supervis_user`
+WHERE `supervis_user`.`deleted_at` IS NULL')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `supervis_user`
+WHERE `supervis_user`.`deleted_at` IS NULL', [], false)
+ 5 SYSTEMPATH/Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH/Controllers/AdminController.php(2206): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AdminController->super_user()
+ 9 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+10 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2023-01-06 11:25:40 --> Undefined variable: userModel
+in APPPATH/Controllers/AdminController.php on line 2522.
+ 1 APPPATH/Controllers/AdminController.php(2522): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: userModel', 'APPPATH/Controllers/AdminController.php', 2522, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AdminController->con_sch()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2023-01-06 11:30:32 --> Undefined property: CodeIgniter\View\View::$load
+in APPPATH/Views/admin/con_sch.php on line 4.
+ 1 APPPATH/Views/admin/con_sch.php(4): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\View\\View::$load', 'APPPATH/Views/admin/con_sch.php', 4, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/con_sch.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/con_sch', [], true)
+ 5 APPPATH/Controllers/AdminController.php(2530): view('admin/con_sch', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AdminController->con_sch()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2023-01-06 11:36:57 --> Trying to get property 'sch_id' of non-object
+in APPPATH/Views/admin/con_sch.php on line 47.
+ 1 APPPATH/Views/admin/con_sch.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'sch_id\' of non-object', 'APPPATH/Views/admin/con_sch.php', 47, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/con_sch.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/con_sch', [], true)
+ 5 APPPATH/Controllers/AdminController.php(2530): view('admin/con_sch', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AdminController->con_sch()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2023-01-06 11:37:49 --> Trying to get property 'sch_id' of non-object
+in APPPATH/Views/admin/con_sch.php on line 47.
+ 1 APPPATH/Views/admin/con_sch.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'sch_id\' of non-object', 'APPPATH/Views/admin/con_sch.php', 47, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/con_sch.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/con_sch', [], true)
+ 5 APPPATH/Controllers/AdminController.php(2530): view('admin/con_sch', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AdminController->con_sch()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')

@@ -1,0 +1,235 @@
+CRITICAL - 2022-12-27 08:16:10 --> Undefined property: CodeIgniter\View\View::$load
+in APPPATH/Views/admin/list_year.php on line 4.
+ 1 APPPATH/Views/admin/list_year.php(4): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\View\\View::$load', 'APPPATH/Views/admin/list_year.php', 4, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/list_year.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/list_year', [], true)
+ 5 APPPATH/Controllers/AdminController.php(325): view('admin/list_year', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AdminController->list_year()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-27 08:18:19 --> Undefined property: CodeIgniter\View\View::$load
+in APPPATH/Views/admin/list_year.php on line 4.
+ 1 APPPATH/Views/admin/list_year.php(4): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\View\\View::$load', 'APPPATH/Views/admin/list_year.php', 4, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/list_year.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/list_year', [], true)
+ 5 APPPATH/Controllers/AdminController.php(325): view('admin/list_year', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AdminController->list_year()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-27 08:19:57 --> Undefined property: CodeIgniter\View\View::$load
+in APPPATH/Views/admin/list_year.php on line 35.
+ 1 APPPATH/Views/admin/list_year.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\View\\View::$load', 'APPPATH/Views/admin/list_year.php', 35, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/list_year.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/list_year', [], true)
+ 5 APPPATH/Controllers/AdminController.php(325): view('admin/list_year', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AdminController->list_year()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-27 08:21:19 --> Trying to get property 'y_name' of non-object
+in APPPATH/Views/admin/list_year.php on line 62.
+ 1 APPPATH/Views/admin/list_year.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'y_name\' of non-object', 'APPPATH/Views/admin/list_year.php', 62, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/list_year.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/list_year', [], true)
+ 5 APPPATH/Controllers/AdminController.php(325): view('admin/list_year', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AdminController->list_year()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-27 09:51:16 --> Undefined index: >y_id
+in APPPATH/Views/admin/list_year.php on line 68.
+ 1 APPPATH/Views/admin/list_year.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: >y_id', 'APPPATH/Views/admin/list_year.php', 68, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/list_year.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/list_year', [], true)
+ 5 APPPATH/Controllers/AdminController.php(325): view('admin/list_year', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AdminController->list_year()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-27 09:51:44 --> Undefined index: >y_id
+in APPPATH/Views/admin/list_year.php on line 72.
+ 1 APPPATH/Views/admin/list_year.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: >y_id', 'APPPATH/Views/admin/list_year.php', 72, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/list_year.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/list_year', [], true)
+ 5 APPPATH/Controllers/AdminController.php(325): view('admin/list_year', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AdminController->list_year()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-27 09:52:05 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH/Views/admin/list_year.php on line 206.
+ 1 APPPATH/Views/admin/list_year.php(206): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\View\\View::$session', 'APPPATH/Views/admin/list_year.php', 206, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/list_year.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/list_year', [], true)
+ 5 APPPATH/Controllers/AdminController.php(325): view('admin/list_year', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AdminController->list_year()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-27 10:15:05 --> Undefined property: App\Controllers\AdminController::$basedb
+in APPPATH/Controllers/AdminController.php on line 380.
+ 1 APPPATH/Controllers/AdminController.php(380): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\AdminController::$basedb', 'APPPATH/Controllers/AdminController.php', 380, [])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AdminController->add_year()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-27 16:05:15 --> Undefined property: App\Controllers\AdminController::$uri
+in APPPATH/Controllers/AdminController.php on line 438.
+ 1 APPPATH/Controllers/AdminController.php(438): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\AdminController::$uri', 'APPPATH/Controllers/AdminController.php', 438, [])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AdminController->edit_year('1')
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-27 16:10:07 --> Undefined property: CodeIgniter\View\View::$load
+in APPPATH/Views/admin/edit_year.php on line 4.
+ 1 APPPATH/Views/admin/edit_year.php(4): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\View\\View::$load', 'APPPATH/Views/admin/edit_year.php', 4, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit_year.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/edit_year', [], true)
+ 5 APPPATH/Controllers/AdminController.php(448): view('admin/edit_year', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AdminController->edit_year('1')
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-27 16:13:09 --> Trying to get property 'y_name' of non-object
+in APPPATH/Views/admin/edit_year.php on line 42.
+ 1 APPPATH/Views/admin/edit_year.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'y_name\' of non-object', 'APPPATH/Views/admin/edit_year.php', 42, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit_year.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/edit_year', [], true)
+ 5 APPPATH/Controllers/AdminController.php(448): view('admin/edit_year', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AdminController->edit_year('1')
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-27 16:13:56 --> Trying to access array offset on value of type null
+in APPPATH/Views/admin/edit_year.php on line 42.
+ 1 APPPATH/Views/admin/edit_year.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH/Views/admin/edit_year.php', 42, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit_year.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/edit_year', [], true)
+ 5 APPPATH/Controllers/AdminController.php(448): view('admin/edit_year', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AdminController->edit_year('1')
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-27 16:14:55 --> Trying to access array offset on value of type null
+in APPPATH/Views/admin/edit_year.php on line 31.
+ 1 APPPATH/Views/admin/edit_year.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH/Views/admin/edit_year.php', 31, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit_year.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/edit_year', [], true)
+ 5 APPPATH/Controllers/AdminController.php(448): view('admin/edit_year', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AdminController->edit_year('1')
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-27 16:15:57 --> Trying to access array offset on value of type null
+in APPPATH/Views/admin/edit_year.php on line 31.
+ 1 APPPATH/Views/admin/edit_year.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH/Views/admin/edit_year.php', 31, [...])
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/edit_year.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/edit_year', [], true)
+ 5 APPPATH/Controllers/AdminController.php(448): view('admin/edit_year', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AdminController->edit_year('1')
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-27 16:33:34 --> Call to a member function with() on string
+in APPPATH/Controllers/AdminController.php on line 491.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AdminController->update_year()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-27 16:35:14 --> Argument 2 passed to base_url() must be of the type string or null, array given, called in /Users/chudphikul/Desktop/moral_obec/kuru/app/Controllers/AdminController.php on line 491
+in SYSTEMPATH/Helpers/url_helper.php on line 100.
+ 1 APPPATH/Controllers/AdminController.php(491): base_url('/admin/edit_year', [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AdminController->update_year()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-27 16:40:34 --> Call to a member function with() on array
+in APPPATH/Controllers/AdminController.php on line 492.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AdminController->update_year()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-27 16:45:52 --> Undefined property: App\Controllers\AdminController::$basedb
+in APPPATH/Controllers/AdminController.php on line 381.
+ 1 APPPATH/Controllers/AdminController.php(381): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\AdminController::$basedb', 'APPPATH/Controllers/AdminController.php', 381, [])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AdminController->add_year()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-27 16:55:15 --> Call to undefined function form_error()
+in APPPATH/Views/admin/add_year.php on line 45.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/add_year', [], true)
+ 4 APPPATH/Controllers/AdminController.php(390): view('admin/add_year', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\AdminController->add_year()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-27 17:16:50 --> syntax error, unexpected ','
+in APPPATH/Controllers/AdminController.php on line 351.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/AdminController.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AdminController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AdminController')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\AdminController')
+ 5 SYSTEMPATH/CodeIgniter.php(877): class_exists('\\App\\Controllers\\AdminController', true)
+ 6 SYSTEMPATH/CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-27 17:17:25 --> syntax error, unexpected ','
+in APPPATH/Controllers/AdminController.php on line 353.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/AdminController.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AdminController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AdminController')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\AdminController')
+ 5 SYSTEMPATH/CodeIgniter.php(877): class_exists('\\App\\Controllers\\AdminController', true)
+ 6 SYSTEMPATH/CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-27 21:48:17 --> Cannot use App\Models\KurusConfigsModel as KurusConfigsModel because the name is already in use
+in APPPATH/Controllers/AdminController.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-27 21:49:35 --> Cannot use App\Models\KurusConfigsModel as KurusConfigsModel because the name is already in use
+in APPPATH/Controllers/AdminController.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-27 21:50:38 --> Cannot use App\Models\KurusConfigsModel as KurusConfigsModel because the name is already in use
+in APPPATH/Controllers/AdminController.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-27 21:52:22 --> Cannot use App\Models\KurusConfigsModel as KurusConfigsModel because the name is already in use
+in APPPATH/Controllers/AdminController.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()

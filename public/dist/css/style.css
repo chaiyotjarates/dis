@@ -1,0 +1,176 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    background: url(../../img/Nature.jpeg) no-repeat center center fixed;
+    min-height: 100vh;
+    font-family: 'Prompt', sans-serif;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.login-moral {
+    display: block;
+    width: 150px;
+    margin: auto;
+}
+
+.req-text {
+    font-style: normal;
+    color: red;
+}
+
+.status-wait-award {
+    color: blue;
+}
+
+p.w3l-register-p {
+    color: #eee;
+    font-size: 18px;
+    text-align: center;
+    margin-top: .5em;
+}
+
+.w3l-login-form {
+    font-family: 'Prompt', sans-serif;  
+    background: rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 0 auto;
+
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 30px 30px 10px 30px;
+}
+
+.login100-form-logo {
+  font-size: 60px; 
+  color: #333333;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: #fff;
+  margin: 0 auto;
+  padding: 5px 5px 5px 5px;
+}
+
+.group {
+    font-family: 'Prompt', sans-serif;  
+    display: flex;
+    padding: 5px 5px;
+    background-color: #ffffff;
+    border-radius: 2rem;
+}
+
+.group i {
+    color: #02a1b5;
+    font-size: 25px;
+    padding: 10px 10px 10px 10px;
+}
+
+.w3l-form-group {
+    margin: 5px 0;
+}
+
+.w3l-form-group label {
+    font-family: 'Prompt';  
+    display: block;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #d2d2d2;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.w4l-form-group {
+    margin: 0px 0px;
+}
+
+.group4 {
+    display: flex;
+    padding: 0px 0px;
+}
+
+
+/*-- /responsive design --*/
+
+@media(max-width:768px) {
+    h1 {
+        font-size: 47px;
+    }
+}
+
+@media(max-width:667px) {
+    h1 {
+        font-size: 45px;
+    }
+}
+
+@media(max-width:640px) {
+    p.copyright-agileinfo {
+        letter-spacing: 1px;
+    }
+    h1 {
+        font-size: 43px;
+    }
+}
+
+@media(max-width:568px) {
+    h1 {
+        font-size: 40px;
+    }
+    p.copyright-agileinfo {
+        font-size: 14px;
+    }
+}
+
+@media(max-width:480px) {
+    .w3l-login-form {
+    margin: 0 3vw;
+}
+    h1 {
+        font-size: 38px;
+    }
+    p.copyright-agileinfo {
+        line-height: 1.8em;
+    }
+}
+
+@media(max-width:414px) {
+    h1 {
+        font-size: 34px;
+    }
+}
+
+@media(max-width:384px) {
+    h1 {
+        font-size: 30px;
+    }
+}
+
+@media(max-width:320px) {
+    h1 {
+        font-size: 25px;
+    }
+    .forgot p {
+        text-align: left;
+    }
+    .forgot {
+        display: block;
+    }
+}
+
+/*-- /responsive design --*/
+
+

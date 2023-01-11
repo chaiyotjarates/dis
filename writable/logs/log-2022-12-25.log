@@ -1,0 +1,470 @@
+CRITICAL - 2022-12-25 07:21:58 --> Undefined variable: request
+in APPPATH/Controllers/Login.php on line 101.
+ 1 APPPATH/Controllers/Login.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: request', 'APPPATH/Controllers/Login.php', 101, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Login->auth()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-25 07:22:46 --> syntax error, unexpected '\' (T_NS_SEPARATOR), expecting '{'
+in APPPATH/Controllers/Login.php on line 18.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/Login.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Login')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Login')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Login')
+ 5 SYSTEMPATH/CodeIgniter.php(877): class_exists('\\App\\Controllers\\Login', true)
+ 6 SYSTEMPATH/CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-25 07:23:13 --> syntax error, unexpected 'class' (T_CLASS), expecting ';' or ','
+in APPPATH/Controllers/Login.php on line 20.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/Login.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Login')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Login')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Login')
+ 5 SYSTEMPATH/CodeIgniter.php(877): class_exists('\\App\\Controllers\\Login', true)
+ 6 SYSTEMPATH/CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-25 07:23:44 --> Undefined variable: request
+in APPPATH/Controllers/Login.php on line 101.
+ 1 APPPATH/Controllers/Login.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: request', 'APPPATH/Controllers/Login.php', 101, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Login->auth()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-25 07:29:24 --> Undefined variable: request
+in APPPATH/Controllers/Login.php on line 101.
+ 1 APPPATH/Controllers/Login.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: request', 'APPPATH/Controllers/Login.php', 101, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Login->auth()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-25 08:41:04 --> Class 'App\Libraries\UserOnline' not found
+in APPPATH/Config/Events.php on line 24.
+ 1 SYSTEMPATH/Events/Events.php(94): include()
+ 2 SYSTEMPATH/Events/Events.php(141): CodeIgniter\Events\Events::initialize()
+ 3 SYSTEMPATH/CodeIgniter.php(328): CodeIgniter\Events\Events::trigger('pre_system')
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-25 08:42:09 --> Call to undefined function App\Libraries\get_instance()
+in APPPATH/Libraries/UserOnline.php on line 10.
+ 1 APPPATH/Config/Events.php(24): App\Libraries\UserOnline->__construct()
+ 2 SYSTEMPATH/Events/Events.php(94): include('APPPATH/Config/Events.php')
+ 3 SYSTEMPATH/Events/Events.php(141): CodeIgniter\Events\Events::initialize()
+ 4 SYSTEMPATH/CodeIgniter.php(328): CodeIgniter\Events\Events::trigger('pre_system')
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-25 08:52:18 --> Undefined property: App\Libraries\UserOnline::$CI
+in APPPATH/Libraries/UserOnline.php on line 24.
+ 1 APPPATH/Libraries/UserOnline.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Libraries\\UserOnline::$CI', 'APPPATH/Libraries/UserOnline.php', 24, [...])
+ 2 SYSTEMPATH/Events/Events.php(149): App\Libraries\UserOnline->online()
+ 3 SYSTEMPATH/CodeIgniter.php(328): CodeIgniter\Events\Events::trigger('pre_system')
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-25 08:53:26 --> Undefined property: App\Libraries\UserOnline::$CI
+in APPPATH/Libraries/UserOnline.php on line 25.
+ 1 APPPATH/Libraries/UserOnline.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Libraries\\UserOnline::$CI', 'APPPATH/Libraries/UserOnline.php', 25, [...])
+ 2 SYSTEMPATH/Events/Events.php(149): App\Libraries\UserOnline->online()
+ 3 SYSTEMPATH/CodeIgniter.php(328): CodeIgniter\Events\Events::trigger('pre_system')
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-25 08:57:15 --> Call to undefined method CodeIgniter\Session\Session::all_userdata()
+in APPPATH/Libraries/UserOnline.php on line 31.
+ 1 SYSTEMPATH/Events/Events.php(149): App\Libraries\UserOnline->online()
+ 2 SYSTEMPATH/CodeIgniter.php(328): CodeIgniter\Events\Events::trigger('pre_system')
+ 3 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-25 08:59:01 --> Call to undefined method CodeIgniter\Session\Session::all_userdata()
+in APPPATH/Libraries/UserOnline.php on line 31.
+ 1 SYSTEMPATH/Events/Events.php(149): App\Libraries\UserOnline->online()
+ 2 SYSTEMPATH/CodeIgniter.php(328): CodeIgniter\Events\Events::trigger('pre_system')
+ 3 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-25 11:37:14 --> Call to undefined method CodeIgniter\Session\Session::all_userdata()
+in APPPATH/Libraries/UserOnline.php on line 31.
+ 1 SYSTEMPATH/Events/Events.php(149): App\Libraries\UserOnline->online()
+ 2 SYSTEMPATH/CodeIgniter.php(328): CodeIgniter\Events\Events::trigger('pre_system')
+ 3 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-25 16:09:52 --> syntax error, unexpected ')'
+in APPPATH/Libraries/UserOnline.php on line 43.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Libraries/UserOnline.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\UserOnline')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\UserOnline')
+ 4 APPPATH/Config/Events.php(24): spl_autoload_call('App\\Libraries\\UserOnline')
+ 5 SYSTEMPATH/Events/Events.php(94): include('APPPATH/Config/Events.php')
+ 6 SYSTEMPATH/Events/Events.php(141): CodeIgniter\Events\Events::initialize()
+ 7 SYSTEMPATH/CodeIgniter.php(328): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-25 16:10:21 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+in APPPATH/Libraries/UserOnline.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-25 16:10:54 --> Undefined property: App\Libraries\UserOnline::$request
+in APPPATH/Libraries/UserOnline.php on line 36.
+ 1 APPPATH/Libraries/UserOnline.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Libraries\\UserOnline::$request', 'APPPATH/Libraries/UserOnline.php', 36, [...])
+ 2 SYSTEMPATH/Events/Events.php(149): App\Libraries\UserOnline->online()
+ 3 SYSTEMPATH/CodeIgniter.php(328): CodeIgniter\Events\Events::trigger('pre_system')
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-25 16:11:50 --> Undefined property: App\Libraries\UserOnline::$request
+in APPPATH/Libraries/UserOnline.php on line 38.
+ 1 APPPATH/Libraries/UserOnline.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Libraries\\UserOnline::$request', 'APPPATH/Libraries/UserOnline.php', 38, [...])
+ 2 SYSTEMPATH/Events/Events.php(149): App\Libraries\UserOnline->online()
+ 3 SYSTEMPATH/CodeIgniter.php(328): CodeIgniter\Events\Events::trigger('pre_system')
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-25 16:12:16 --> Undefined variable: request
+in APPPATH/Libraries/UserOnline.php on line 38.
+ 1 APPPATH/Libraries/UserOnline.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: request', 'APPPATH/Libraries/UserOnline.php', 38, [...])
+ 2 SYSTEMPATH/Events/Events.php(149): App\Libraries\UserOnline->online()
+ 3 SYSTEMPATH/CodeIgniter.php(328): CodeIgniter\Events\Events::trigger('pre_system')
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-25 16:13:24 --> Undefined property: App\Libraries\UserOnline::$request
+in APPPATH/Libraries/UserOnline.php on line 38.
+ 1 APPPATH/Libraries/UserOnline.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Libraries\\UserOnline::$request', 'APPPATH/Libraries/UserOnline.php', 38, [...])
+ 2 SYSTEMPATH/Events/Events.php(149): App\Libraries\UserOnline->online()
+ 3 SYSTEMPATH/CodeIgniter.php(328): CodeIgniter\Events\Events::trigger('pre_system')
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-25 16:14:56 --> Undefined property: App\Libraries\UserOnline::$request
+in APPPATH/Libraries/UserOnline.php on line 38.
+ 1 APPPATH/Libraries/UserOnline.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Libraries\\UserOnline::$request', 'APPPATH/Libraries/UserOnline.php', 38, [...])
+ 2 SYSTEMPATH/Events/Events.php(149): App\Libraries\UserOnline->online()
+ 3 SYSTEMPATH/CodeIgniter.php(328): CodeIgniter\Events\Events::trigger('pre_system')
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-25 20:51:05 --> Undefined property: App\Libraries\UserOnline::$request
+in APPPATH/Libraries/UserOnline.php on line 38.
+ 1 APPPATH/Libraries/UserOnline.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Libraries\\UserOnline::$request', 'APPPATH/Libraries/UserOnline.php', 38, [...])
+ 2 SYSTEMPATH/Events/Events.php(149): App\Libraries\UserOnline->online()
+ 3 SYSTEMPATH/CodeIgniter.php(328): CodeIgniter\Events\Events::trigger('pre_system')
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-25 20:53:12 --> Undefined property: App\Libraries\UserOnline::$request
+in APPPATH/Libraries/UserOnline.php on line 38.
+ 1 APPPATH/Libraries/UserOnline.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Libraries\\UserOnline::$request', 'APPPATH/Libraries/UserOnline.php', 38, [...])
+ 2 SYSTEMPATH/Events/Events.php(149): App\Libraries\UserOnline->online()
+ 3 SYSTEMPATH/CodeIgniter.php(328): CodeIgniter\Events\Events::trigger('pre_system')
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-25 20:55:57 --> Too few arguments to function App\Libraries\UserOnline::Guest_insert_data(), 0 passed in /Users/chudphikul/Desktop/moral_obec/kuru/app/Libraries/UserOnline.php on line 64 and exactly 1 expected
+in APPPATH/Libraries/UserOnline.php on line 70.
+ 1 APPPATH/Libraries/UserOnline.php(64): App\Libraries\UserOnline->Guest_insert_data()
+ 2 SYSTEMPATH/Events/Events.php(149): App\Libraries\UserOnline->online()
+ 3 SYSTEMPATH/CodeIgniter.php(328): CodeIgniter\Events\Events::trigger('pre_system')
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-25 20:56:52 --> Undefined variable: dataGuest
+in APPPATH/Libraries/UserOnline.php on line 76.
+ 1 APPPATH/Libraries/UserOnline.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: dataGuest', 'APPPATH/Libraries/UserOnline.php', 76, [])
+ 2 APPPATH/Libraries/UserOnline.php(64): App\Libraries\UserOnline->Guest_insert_data()
+ 3 SYSTEMPATH/Events/Events.php(149): App\Libraries\UserOnline->online()
+ 4 SYSTEMPATH/CodeIgniter.php(328): CodeIgniter\Events\Events::trigger('pre_system')
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-25 20:57:18 --> Undefined property: App\Libraries\UserOnline::$request
+in APPPATH/Libraries/UserOnline.php on line 76.
+ 1 APPPATH/Libraries/UserOnline.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Libraries\\UserOnline::$request', 'APPPATH/Libraries/UserOnline.php', 76, [])
+ 2 APPPATH/Libraries/UserOnline.php(64): App\Libraries\UserOnline->Guest_insert_data()
+ 3 SYSTEMPATH/Events/Events.php(149): App\Libraries\UserOnline->online()
+ 4 SYSTEMPATH/CodeIgniter.php(328): CodeIgniter\Events\Events::trigger('pre_system')
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-25 20:59:34 --> Undefined variable: dataGuest
+in APPPATH/Libraries/UserOnline.php on line 77.
+ 1 APPPATH/Libraries/UserOnline.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: dataGuest', 'APPPATH/Libraries/UserOnline.php', 77, [])
+ 2 APPPATH/Libraries/UserOnline.php(64): App\Libraries\UserOnline->Guest_insert_data()
+ 3 SYSTEMPATH/Events/Events.php(149): App\Libraries\UserOnline->online()
+ 4 SYSTEMPATH/CodeIgniter.php(328): CodeIgniter\Events\Events::trigger('pre_system')
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-25 21:05:10 --> Undefined property: App\Libraries\UserOnline::$CI
+in APPPATH/Libraries/UserOnline.php on line 81.
+ 1 APPPATH/Libraries/UserOnline.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Libraries\\UserOnline::$CI', 'APPPATH/Libraries/UserOnline.php', 81, [...])
+ 2 APPPATH/Libraries/UserOnline.php(64): App\Libraries\UserOnline->Guest_insert_data()
+ 3 SYSTEMPATH/Events/Events.php(149): App\Libraries\UserOnline->online()
+ 4 SYSTEMPATH/CodeIgniter.php(328): CodeIgniter\Events\Events::trigger('pre_system')
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-25 21:07:47 --> syntax error, unexpected ','
+in APPPATH/Libraries/UserOnline.php on line 81.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Libraries/UserOnline.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\UserOnline')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\UserOnline')
+ 4 APPPATH/Config/Events.php(25): spl_autoload_call('App\\Libraries\\UserOnline')
+ 5 SYSTEMPATH/Events/Events.php(94): include('APPPATH/Config/Events.php')
+ 6 SYSTEMPATH/Events/Events.php(141): CodeIgniter\Events\Events::initialize()
+ 7 SYSTEMPATH/CodeIgniter.php(328): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-25 21:08:22 --> Undefined variable: guestOnlineModel
+in APPPATH/Libraries/UserOnline.php on line 81.
+ 1 APPPATH/Libraries/UserOnline.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: guestOnlineModel', 'APPPATH/Libraries/UserOnline.php', 81, [...])
+ 2 APPPATH/Libraries/UserOnline.php(64): App\Libraries\UserOnline->Guest_insert_data()
+ 3 SYSTEMPATH/Events/Events.php(149): App\Libraries\UserOnline->online()
+ 4 SYSTEMPATH/CodeIgniter.php(328): CodeIgniter\Events\Events::trigger('pre_system')
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2022-12-25 21:10:34 --> mysqli_sql_exception: Not unique table/alias: 'guest_online' in /Users/chudphikul/Desktop/moral_obec/kuru/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /Users/chudphikul/Desktop/moral_obec/kuru/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 /Users/chudphikul/Desktop/moral_obec/kuru/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 /Users/chudphikul/Desktop/moral_obec/kuru/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 /Users/chudphikul/Desktop/moral_obec/kuru/system/Database/BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 /Users/chudphikul/Desktop/moral_obec/kuru/system/Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 /Users/chudphikul/Desktop/moral_obec/kuru/app/Libraries/UserOnline.php(83): CodeIgniter\Model->countAllResults()
+#6 /Users/chudphikul/Desktop/moral_obec/kuru/app/Libraries/UserOnline.php(64): App\Libraries\UserOnline->Guest_insert_data()
+#7 /Users/chudphikul/Desktop/moral_obec/kuru/system/Events/Events.php(149): App\Libraries\UserOnline->online()
+#8 /Users/chudphikul/Desktop/moral_obec/kuru/system/CodeIgniter.php(328): CodeIgniter\Events\Events::trigger('pre_system')
+#9 /Users/chudphikul/Desktop/moral_obec/kuru/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /Users/chudphikul/Desktop/moral_obec/kuru/system/Commands/Server/rewrite.php(46): require_once('/Users/chudphik...')
+#11 {main}
+CRITICAL - 2022-12-25 21:10:34 --> Not unique table/alias: 'guest_online'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `guest_online`, `guest_online`
+WHERE `ip_address` = \'::1\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `guest_online`, `guest_online`
+WHERE `ip_address` = \'::1\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `guest_online`, `guest_online`
+WHERE `ip_address` = \'::1\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `guest_online`, `guest_online`
+WHERE `ip_address` = :ip_address:', [...], false)
+ 5 SYSTEMPATH/Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 6 APPPATH/Libraries/UserOnline.php(83): CodeIgniter\Model->countAllResults()
+ 7 APPPATH/Libraries/UserOnline.php(64): App\Libraries\UserOnline->Guest_insert_data()
+ 8 SYSTEMPATH/Events/Events.php(149): App\Libraries\UserOnline->online()
+ 9 SYSTEMPATH/CodeIgniter.php(328): CodeIgniter\Events\Events::trigger('pre_system')
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2022-12-25 21:11:35 --> mysqli_sql_exception: Not unique table/alias: 'guest_online' in /Users/chudphikul/Desktop/moral_obec/kuru/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /Users/chudphikul/Desktop/moral_obec/kuru/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 /Users/chudphikul/Desktop/moral_obec/kuru/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 /Users/chudphikul/Desktop/moral_obec/kuru/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 /Users/chudphikul/Desktop/moral_obec/kuru/system/Database/BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 /Users/chudphikul/Desktop/moral_obec/kuru/system/Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 /Users/chudphikul/Desktop/moral_obec/kuru/app/Libraries/UserOnline.php(83): CodeIgniter\Model->countAllResults()
+#6 /Users/chudphikul/Desktop/moral_obec/kuru/app/Libraries/UserOnline.php(64): App\Libraries\UserOnline->Guest_insert_data()
+#7 /Users/chudphikul/Desktop/moral_obec/kuru/system/Events/Events.php(149): App\Libraries\UserOnline->online()
+#8 /Users/chudphikul/Desktop/moral_obec/kuru/system/CodeIgniter.php(328): CodeIgniter\Events\Events::trigger('pre_system')
+#9 /Users/chudphikul/Desktop/moral_obec/kuru/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /Users/chudphikul/Desktop/moral_obec/kuru/system/Commands/Server/rewrite.php(46): require_once('/Users/chudphik...')
+#11 {main}
+CRITICAL - 2022-12-25 21:11:35 --> Not unique table/alias: 'guest_online'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `guest_online`, `guest_online`
+WHERE `ip_address` = \'::1\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `guest_online`, `guest_online`
+WHERE `ip_address` = \'::1\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `guest_online`, `guest_online`
+WHERE `ip_address` = \'::1\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `guest_online`, `guest_online`
+WHERE `ip_address` = :ip_address:', [...], false)
+ 5 SYSTEMPATH/Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 6 APPPATH/Libraries/UserOnline.php(83): CodeIgniter\Model->countAllResults()
+ 7 APPPATH/Libraries/UserOnline.php(64): App\Libraries\UserOnline->Guest_insert_data()
+ 8 SYSTEMPATH/Events/Events.php(149): App\Libraries\UserOnline->online()
+ 9 SYSTEMPATH/CodeIgniter.php(328): CodeIgniter\Events\Events::trigger('pre_system')
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2022-12-25 21:11:37 --> mysqli_sql_exception: Not unique table/alias: 'guest_online' in /Users/chudphikul/Desktop/moral_obec/kuru/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /Users/chudphikul/Desktop/moral_obec/kuru/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 /Users/chudphikul/Desktop/moral_obec/kuru/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 /Users/chudphikul/Desktop/moral_obec/kuru/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 /Users/chudphikul/Desktop/moral_obec/kuru/system/Database/BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 /Users/chudphikul/Desktop/moral_obec/kuru/system/Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 /Users/chudphikul/Desktop/moral_obec/kuru/app/Libraries/UserOnline.php(83): CodeIgniter\Model->countAllResults()
+#6 /Users/chudphikul/Desktop/moral_obec/kuru/app/Libraries/UserOnline.php(64): App\Libraries\UserOnline->Guest_insert_data()
+#7 /Users/chudphikul/Desktop/moral_obec/kuru/system/Events/Events.php(149): App\Libraries\UserOnline->online()
+#8 /Users/chudphikul/Desktop/moral_obec/kuru/system/CodeIgniter.php(328): CodeIgniter\Events\Events::trigger('pre_system')
+#9 /Users/chudphikul/Desktop/moral_obec/kuru/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /Users/chudphikul/Desktop/moral_obec/kuru/system/Commands/Server/rewrite.php(46): require_once('/Users/chudphik...')
+#11 {main}
+CRITICAL - 2022-12-25 21:11:37 --> Not unique table/alias: 'guest_online'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `guest_online`, `guest_online`
+WHERE `ip_address` = \'::1\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `guest_online`, `guest_online`
+WHERE `ip_address` = \'::1\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `guest_online`, `guest_online`
+WHERE `ip_address` = \'::1\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `guest_online`, `guest_online`
+WHERE `ip_address` = :ip_address:', [...], false)
+ 5 SYSTEMPATH/Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 6 APPPATH/Libraries/UserOnline.php(83): CodeIgniter\Model->countAllResults()
+ 7 APPPATH/Libraries/UserOnline.php(64): App\Libraries\UserOnline->Guest_insert_data()
+ 8 SYSTEMPATH/Events/Events.php(149): App\Libraries\UserOnline->online()
+ 9 SYSTEMPATH/CodeIgniter.php(328): CodeIgniter\Events\Events::trigger('pre_system')
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-25 21:16:11 --> syntax error, unexpected ')', expecting ']'
+in APPPATH/Libraries/UserOnline.php on line 90.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Libraries/UserOnline.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\UserOnline')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\UserOnline')
+ 4 APPPATH/Config/Events.php(25): spl_autoload_call('App\\Libraries\\UserOnline')
+ 5 SYSTEMPATH/Events/Events.php(94): include('APPPATH/Config/Events.php')
+ 6 SYSTEMPATH/Events/Events.php(141): CodeIgniter\Events\Events::initialize()
+ 7 SYSTEMPATH/CodeIgniter.php(328): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2022-12-25 21:16:38 --> mysqli_sql_exception: Not unique table/alias: 'guest_online' in /Users/chudphikul/Desktop/moral_obec/kuru/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /Users/chudphikul/Desktop/moral_obec/kuru/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 /Users/chudphikul/Desktop/moral_obec/kuru/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 /Users/chudphikul/Desktop/moral_obec/kuru/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 /Users/chudphikul/Desktop/moral_obec/kuru/system/Database/BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 /Users/chudphikul/Desktop/moral_obec/kuru/system/Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 /Users/chudphikul/Desktop/moral_obec/kuru/app/Libraries/UserOnline.php(83): CodeIgniter\Model->countAllResults()
+#6 /Users/chudphikul/Desktop/moral_obec/kuru/app/Libraries/UserOnline.php(64): App\Libraries\UserOnline->Guest_insert_data()
+#7 /Users/chudphikul/Desktop/moral_obec/kuru/system/Events/Events.php(149): App\Libraries\UserOnline->online()
+#8 /Users/chudphikul/Desktop/moral_obec/kuru/system/CodeIgniter.php(328): CodeIgniter\Events\Events::trigger('pre_system')
+#9 /Users/chudphikul/Desktop/moral_obec/kuru/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /Users/chudphikul/Desktop/moral_obec/kuru/system/Commands/Server/rewrite.php(46): require_once('/Users/chudphik...')
+#11 {main}
+CRITICAL - 2022-12-25 21:16:38 --> Not unique table/alias: 'guest_online'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `guest_online`, `guest_online`
+WHERE `ip_address` = \'::1\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `guest_online`, `guest_online`
+WHERE `ip_address` = \'::1\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `guest_online`, `guest_online`
+WHERE `ip_address` = \'::1\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `guest_online`, `guest_online`
+WHERE `ip_address` = :ip_address:', [...], false)
+ 5 SYSTEMPATH/Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 6 APPPATH/Libraries/UserOnline.php(83): CodeIgniter\Model->countAllResults()
+ 7 APPPATH/Libraries/UserOnline.php(64): App\Libraries\UserOnline->Guest_insert_data()
+ 8 SYSTEMPATH/Events/Events.php(149): App\Libraries\UserOnline->online()
+ 9 SYSTEMPATH/CodeIgniter.php(328): CodeIgniter\Events\Events::trigger('pre_system')
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2022-12-25 21:19:02 --> mysqli_sql_exception: Not unique table/alias: 'guest_online' in /Users/chudphikul/Desktop/moral_obec/kuru/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /Users/chudphikul/Desktop/moral_obec/kuru/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 /Users/chudphikul/Desktop/moral_obec/kuru/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 /Users/chudphikul/Desktop/moral_obec/kuru/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 /Users/chudphikul/Desktop/moral_obec/kuru/system/Database/BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 /Users/chudphikul/Desktop/moral_obec/kuru/system/Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 /Users/chudphikul/Desktop/moral_obec/kuru/app/Libraries/UserOnline.php(83): CodeIgniter\Model->countAllResults()
+#6 /Users/chudphikul/Desktop/moral_obec/kuru/app/Libraries/UserOnline.php(64): App\Libraries\UserOnline->Guest_insert_data()
+#7 /Users/chudphikul/Desktop/moral_obec/kuru/system/Events/Events.php(149): App\Libraries\UserOnline->online()
+#8 /Users/chudphikul/Desktop/moral_obec/kuru/system/CodeIgniter.php(328): CodeIgniter\Events\Events::trigger('pre_system')
+#9 /Users/chudphikul/Desktop/moral_obec/kuru/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /Users/chudphikul/Desktop/moral_obec/kuru/system/Commands/Server/rewrite.php(46): require_once('/Users/chudphik...')
+#11 {main}
+CRITICAL - 2022-12-25 21:19:02 --> Not unique table/alias: 'guest_online'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `guest_online`, `guest_online`
+WHERE `ip_address` = \'::1\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `guest_online`, `guest_online`
+WHERE `ip_address` = \'::1\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `guest_online`, `guest_online`
+WHERE `ip_address` = \'::1\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `guest_online`, `guest_online`
+WHERE `ip_address` = :ip_address:', [...], false)
+ 5 SYSTEMPATH/Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 6 APPPATH/Libraries/UserOnline.php(83): CodeIgniter\Model->countAllResults()
+ 7 APPPATH/Libraries/UserOnline.php(64): App\Libraries\UserOnline->Guest_insert_data()
+ 8 SYSTEMPATH/Events/Events.php(149): App\Libraries\UserOnline->online()
+ 9 SYSTEMPATH/CodeIgniter.php(328): CodeIgniter\Events\Events::trigger('pre_system')
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2022-12-25 21:20:55 --> mysqli_sql_exception: Not unique table/alias: 'guest_online' in /Users/chudphikul/Desktop/moral_obec/kuru/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /Users/chudphikul/Desktop/moral_obec/kuru/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 /Users/chudphikul/Desktop/moral_obec/kuru/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 /Users/chudphikul/Desktop/moral_obec/kuru/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 /Users/chudphikul/Desktop/moral_obec/kuru/system/Database/BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 /Users/chudphikul/Desktop/moral_obec/kuru/system/Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 /Users/chudphikul/Desktop/moral_obec/kuru/app/Libraries/UserOnline.php(83): CodeIgniter\Model->countAllResults()
+#6 /Users/chudphikul/Desktop/moral_obec/kuru/app/Libraries/UserOnline.php(64): App\Libraries\UserOnline->Guest_insert_data()
+#7 /Users/chudphikul/Desktop/moral_obec/kuru/system/Events/Events.php(149): App\Libraries\UserOnline->online()
+#8 /Users/chudphikul/Desktop/moral_obec/kuru/system/CodeIgniter.php(328): CodeIgniter\Events\Events::trigger('pre_system')
+#9 /Users/chudphikul/Desktop/moral_obec/kuru/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /Users/chudphikul/Desktop/moral_obec/kuru/system/Commands/Server/rewrite.php(46): require_once('/Users/chudphik...')
+#11 {main}
+CRITICAL - 2022-12-25 21:20:55 --> Not unique table/alias: 'guest_online'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `guest_online`, `guest_online`
+WHERE `ip_address` = \'::1\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `guest_online`, `guest_online`
+WHERE `ip_address` = \'::1\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `guest_online`, `guest_online`
+WHERE `ip_address` = \'::1\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `guest_online`, `guest_online`
+WHERE `ip_address` = :ip_address:', [...], false)
+ 5 SYSTEMPATH/Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 6 APPPATH/Libraries/UserOnline.php(83): CodeIgniter\Model->countAllResults()
+ 7 APPPATH/Libraries/UserOnline.php(64): App\Libraries\UserOnline->Guest_insert_data()
+ 8 SYSTEMPATH/Events/Events.php(149): App\Libraries\UserOnline->online()
+ 9 SYSTEMPATH/CodeIgniter.php(328): CodeIgniter\Events\Events::trigger('pre_system')
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2022-12-25 21:22:58 --> mysqli_sql_exception: Not unique table/alias: 'guest_online' in /Users/chudphikul/Desktop/moral_obec/kuru/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /Users/chudphikul/Desktop/moral_obec/kuru/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 /Users/chudphikul/Desktop/moral_obec/kuru/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 /Users/chudphikul/Desktop/moral_obec/kuru/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 /Users/chudphikul/Desktop/moral_obec/kuru/system/Database/BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 /Users/chudphikul/Desktop/moral_obec/kuru/system/Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 /Users/chudphikul/Desktop/moral_obec/kuru/app/Libraries/UserOnline.php(83): CodeIgniter\Model->countAllResults()
+#6 /Users/chudphikul/Desktop/moral_obec/kuru/app/Libraries/UserOnline.php(64): App\Libraries\UserOnline->Guest_insert_data()
+#7 /Users/chudphikul/Desktop/moral_obec/kuru/system/Events/Events.php(149): App\Libraries\UserOnline->online()
+#8 /Users/chudphikul/Desktop/moral_obec/kuru/system/CodeIgniter.php(328): CodeIgniter\Events\Events::trigger('pre_system')
+#9 /Users/chudphikul/Desktop/moral_obec/kuru/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 /Users/chudphikul/Desktop/moral_obec/kuru/system/Commands/Server/rewrite.php(46): require_once('/Users/chudphik...')
+#11 {main}
+CRITICAL - 2022-12-25 21:22:58 --> Not unique table/alias: 'guest_online'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `guest_online`, `guest_online`
+WHERE `ip_address` = \'::1\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `guest_online`, `guest_online`
+WHERE `ip_address` = \'::1\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `guest_online`, `guest_online`
+WHERE `ip_address` = \'::1\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `guest_online`, `guest_online`
+WHERE `ip_address` = :ip_address:', [...], false)
+ 5 SYSTEMPATH/Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 6 APPPATH/Libraries/UserOnline.php(83): CodeIgniter\Model->countAllResults()
+ 7 APPPATH/Libraries/UserOnline.php(64): App\Libraries\UserOnline->Guest_insert_data()
+ 8 SYSTEMPATH/Events/Events.php(149): App\Libraries\UserOnline->online()
+ 9 SYSTEMPATH/CodeIgniter.php(328): CodeIgniter\Events\Events::trigger('pre_system')
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
