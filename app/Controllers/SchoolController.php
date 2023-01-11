@@ -9,7 +9,7 @@ use App\Models\PrefixModel;
 use App\Models\AreasModel;
 use App\Models\SchoolsModel;
 use App\Models\ClustersModel;
-use App\Models\KurusConfigsModel;
+use App\Models\DisConfigsModel;
 use App\Models\UsersOnlinesModel;
 
 use \Hermawan\DataTables\DataTable;
@@ -30,7 +30,7 @@ public function index() {
     $awardModel = new AwardsModel;
     $areaModel = new AreasModel;
     $clusterModel = new ClustersModel;
-    $kuruConfigModel = new KurusConfigsModel;
+    $disConfigModel = new DisConfigsModel;
     $userOnlineModel = new UsersOnlinesModel;
 
     $data = [
@@ -42,9 +42,9 @@ public function index() {
         'confirm' => $userModel->where('sch_id',session()->get('school'))->where('user_status', 'waiting')->countAllResults(),
         'award' => $awardModel->where('sch_id',session()->get('school'))->countAllResults(),
         'awardall' => $awardModel->countAllResults(),
-        'config' => $kuruConfigModel->where('co_status', 'Active')->first(),
+        'config' => $disConfigModel->where('co_status', 'Active')->first(),
         'DateNow' => date("Y-m-d"),
-        'useronline' => $userOnlineModel->where('checktype','kuru')->countAllResults(),
+        'useronline' => $userOnlineModel->where('checktype','dis')->countAllResults(),
     ];
 
     echo view('school/dashboard', $data); 
@@ -63,7 +63,7 @@ public function changePassword()
         '1' => 'เปลี่ยนรหัสผ่าน'
         ],
         'user' => $userModel->where('user_id',session()->get('user_id'))->first(),
-        'useronline' => $userOnlineModel->where('checktype','kuru')->countAllResults(),    
+        'useronline' => $userOnlineModel->where('checktype','dis')->countAllResults(),    
     ];
     echo view(session()->get('checktype').'/changePassword', $data);
 }
@@ -146,7 +146,7 @@ public function profile()
         'area' => $areaModel->orderBy('area_id', 'asc')->findall(),
         'cluster' => $clusterModel->orderBy('clus_id', 'asc')->findall(),        
         'school' => $schoolsModel->where('sch_area', session()->get('area'))->orderBy('sch_id', 'asc')->findall(),
-        'useronline' => $userOnlineModel->where('checktype','kuru')->countAllResults(),
+        'useronline' => $userOnlineModel->where('checktype','dis')->countAllResults(),
     ];
     echo view(session()->get('checktype').'/profile', $data);
 }
@@ -363,7 +363,7 @@ public function users()
     'title' => [
         '1' => 'สมาชิกของโรงเรียน'
     ],
-    'useronline' => $userOnlineModel->where('checktype','kuru')->countAllResults(),
+    'useronline' => $userOnlineModel->where('checktype','dis')->countAllResults(),
 
     ];
     echo view(session()->get('checktype').'/users', $data);
@@ -389,7 +389,7 @@ public function addUser()
         'area' => $areaModel->orderBy('area_id', 'asc')->findall(),
         'cluster' => $clustersModel->orderBy('area_id', 'asc')->findall(),
         'school' => $schoolModel->where('sch_area', session()->get('area'))->orderBy('sch_id', 'asc')->findall(),
-        'useronline' => $userOnlineModel->where('checktype','kuru')->countAllResults(),
+        'useronline' => $userOnlineModel->where('checktype','dis')->countAllResults(),
 
     ];
     echo view(session()->get('checktype').'/addUser', $data);
@@ -515,7 +515,7 @@ public function insertUser()
             'area' => $areaModel->orderBy('area_id', 'asc')->findall(),
             'cluster' => $clusterModel->orderBy('clus_id', 'asc')->findall(),
             'school' => $schoolsModel->where('sch_area', session()->get('area'))->orderBy('sch_id', 'asc')->findall(),
-            'useronline' => $userOnlineModel->where('checktype','kuru')->countAllResults(),
+            'useronline' => $userOnlineModel->where('checktype','dis')->countAllResults(),
 
         ];
 
@@ -532,7 +532,7 @@ public function confirmUser()
     'title' => [
         '1' => 'ยืนยันสมาชิกใหม่ของโรงเรียน'
     ],
-    'useronline' => $userOnlineModel->where('checktype','kuru')->countAllResults(),
+    'useronline' => $userOnlineModel->where('checktype','dis')->countAllResults(),
 
     ];
     echo view(session()->get('checktype').'/confirmUser', $data);

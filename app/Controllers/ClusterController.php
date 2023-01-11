@@ -6,7 +6,7 @@ use App\Models\PrefixModel;
 use App\Models\AreasModel;
 use App\Models\SchoolsModel;
 use App\Models\ClustersModel;
-use App\Models\KurusConfigsModel;
+use App\Models\DisConfigsModel;
 use App\Models\ClustersOnlinesModel;
 
 use CodeIgniter\Controller;
@@ -19,14 +19,14 @@ class ClusterController extends Controller {
         $areaModel = new AreasModel;
         $schoolModel = new SchoolsModel;
         $clusterModel = new ClustersModel;
-        $kuruConfigModel = new KurusConfigsModel;
+        $disConfigModel = new DisConfigsModel;
         $clusterOnlineModel = new ClustersOnlinesModel;
 
         $data = [
             'title' => [
                 '1' => 'Dashboard, เขตตรวจราชการ',
             ],
-            'useronline' => $clusterOnlineModel->where('checktype','kuru')->countAllResults(),
+            'useronline' => $clusterOnlineModel->where('checktype','dis')->countAllResults(),
         ];
         echo view('cluster/dashboard', $data);
     }
