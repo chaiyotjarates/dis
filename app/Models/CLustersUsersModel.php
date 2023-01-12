@@ -13,7 +13,7 @@ class ClustersUsersModel extends Model
   protected $useTimestamps = true;
   protected $dateFormat = 'datetime'; // datetime or date or int // ค่า defalut เป็น datetime
   protected $createdField  = 'created_at';
-  protected $updatedField  = 'updated_at';
+  protected $updatedField  = 'updated_at'; 
   // กำหนดการจัดการส่วนของการ delete() 
   //protected $useSoftDeletes = true;
   protected $deletedField  = 'deleted_at';
