@@ -24,8 +24,8 @@ class App extends BaseConfig
      *
      * @var string
      */
-//    public $baseURL = 'https://moral.obec.go.th/kuru/';
-      public $baseURL = 'http://localhost:8080';
+    public $baseURL = 'https://fame.obec.go.th/fame/';
+//      public $baseURL = 'http://localhost:8080';
 
     /**
      * --------------------------------------------------------------------------
