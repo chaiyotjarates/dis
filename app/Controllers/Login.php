@@ -4,7 +4,7 @@ use App\Models\UsersModel;
 use App\Models\SchoolsModel;
 use App\Models\AreasModel;
 use App\Models\ClustersModel;
-use App\Models\prefixModel;
+use App\Models\PrefixModel;
 use App\Models\AdminsUsersModel;
 use App\Models\AreasUsersModel;
 use App\Models\ClustersUsersModel;
