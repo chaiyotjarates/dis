@@ -72,7 +72,7 @@ class Login extends Controller {
         $adminloginModel = new AdminsLoginsModel;
         $arealoginModel = new AreasLoginsModel;
         $clusterloginModel = new ClustersLoginsModel;
-        $userloginModel = new UsersLoginsModel;
+        //$userloginModel = new UsersLoginsModel; 
 
         $user_idcard = $this->request->getVar('username');
         $password = $this->request->getVar('password');
