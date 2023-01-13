@@ -109,7 +109,8 @@
 									</label>-->
 								</div>
 								<div class="w-50 text-md-right">
-									<a href="<?=base_url('/forgotPassword')?>">ลืมรหัสผ่าน</a>
+									<a href="<?=base_url('/forgotPassword')?>">ลืมรหัสผ่าน</a> |
+                  <a href="https://fame.obec.go.th">หน้าแรก</a>
 								</div>
 	            </div>
 	          </form>
